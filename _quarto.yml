@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Code & Data Bootcamp: Git, Bash y R"
+  author: "Dra. Evelia Coss, Dra. Haydedé Peruyero"
+  date: "6/15/2026"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - Parte3.qmd
+    - Parte4.qmd
+    - Bash.qmd
+    - REGEX.qmd
+
+  # Information
+  repo-url: https://github.com/ISCB-RSG-MEXICO/2026-06-15-CodeData_Bootcamp_Git_Bash_R # link de Github
+  sharing: [twitter, facebook, linkedin]
+  # favicon: "rsgMexico.jpeg" # icono de la pagina en pestana
+
+
+format:
+  html:
+    toc-depth: 4
+    number-depth: 3
+  # Boton para cambiar tema de oscuro a claro
+    theme:
+      light: cosmo
+      dark: darkly
+    code-fold: show # Ocultar codigo
+    code-copy: true # Copy button
+    freeze: false  # Desactivar congelamiento
+
+editor: visual
+

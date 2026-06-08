@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "",
+    "text": "1.1 ¿Qué es UNIX?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#qué-es-unix",
+    "href": "intro.html#qué-es-unix",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "",
+    "text": "Sistema operativo (SO) creado por Ken Thompson y Dennis Ritchie de la empresa Bell Laboratories en 1969.\nSO multitarea y multiusuario.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#gnulinux",
+    "href": "intro.html#gnulinux",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "1.2 GNU/Linux",
+    "text": "1.2 GNU/Linux\n\nEn 1983 Richard Stallman lideró la iniciativa GNU (GNU’s Not Unix), SO compatible con UNIX de libre distribución y acceso sin restricciones al código fuente.\nEn 1991 Linus Torvalds creó su propio kernel (Linux), que es la parte del SO que permite la comunicación con los componentes de Hardware. Este kernel fue distribuido de forma libre y gratuita.\nAmbos proyectos se juntaron y se creó GNU/Linux",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#filosofía-gnulinux",
+    "href": "intro.html#filosofía-gnulinux",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "1.3 Filosofía GNU/Linux",
+    "text": "1.3 Filosofía GNU/Linux\n\nLos usuarios son libres de ejecutar, copiar, distribuir, estudiar, cambiar y mejorar el software.\nEl software libre se refiere a las libertades mencionadas, no al precio.\n“open source” vs “free software”.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#ubuntu",
+    "href": "intro.html#ubuntu",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "1.4 Ubuntu",
+    "text": "1.4 Ubuntu\n\nUna de las distribuciones de GNU/Linux más populares.\nEstá basada en Debian y fue desarrollada por la empresa Canonical\nFacilidad de uso e instalación.\nInterfaz de usuario amigable.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#shell-bash-bash-shell",
+    "href": "intro.html#shell-bash-bash-shell",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "1.5 Shell / Bash / Bash Shell",
+    "text": "1.5 Shell / Bash / Bash Shell\n\nLa shell es el programa que provee una interfaz de línea de comandos (CLI), que permite la comunicación entre el usuario y el SO.\nLa mayoría de distribuciones de Linux tienen por defecto bash (“Bourne Again SHell”) como shell. Hay otros tipos de shell como sh, csh, tcsh, ksh, zsh, entre otras.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nBash es un intérprete de comandos que te da el poder de hacer tareas simples rápidamente.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#material-suplementario",
+    "href": "intro.html#material-suplementario",
+    "title": "1  Conceptos Unix y GNU/Linux",
+    "section": "1.6 Material suplementario",
+    "text": "1.6 Material suplementario\nSi quieren aprender temas más sobre UNIX, GNU/Linux, bash, emulador de terminal y otros tema, pueden explorar los siguientes recursos, que son de acceso libre:\n\nKross, S. (2017). The unix workbench. Leanpub. https://leanpub.com/unix\nRoss, A. (2019). The Ultimate Linux Newbie Guide. https://linuxnewbieguide.org/\nShotts, W. (2019). The Linux command line: a complete introduction. No Starch Press. http://www.linuxcommand.org/tlcl.php/index.php\nLinux Journey. (2020). Linux Journey. https://linuxjourney.com/\nGNU. (2020). GNU. https://www.gnu.org/\nGNU/Linux para bioinformatica",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conceptos Unix y GNU/Linux</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html",
+    "href": "Parte3.html",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "",
+    "text": "2.1 Materiales informativos\nNotas personales recabadas a partir de los tutoriales y ejemplos 😊. Espero que les funcione 💜\n💪 Estuve muy intensa viendo su codigo. Muchas gracias por tenerlos publico.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html#materiales-informativos",
+    "href": "Parte3.html#materiales-informativos",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "",
+    "text": "Curso de Joselyn Cristina Chávez Fuentes\nMe ayudo mucho este Video\nDocumentación de funciones de Andrés Arredondo Cruz",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html#un-algoritmo-nos-permite-resolver-un-problema",
+    "href": "Parte3.html#un-algoritmo-nos-permite-resolver-un-problema",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "2.2 Un algoritmo nos permite resolver un problema ⭐",
+    "text": "2.2 Un algoritmo nos permite resolver un problema ⭐\nUn algoritmo es un método para resolver un problema mediante una serie de pasos definidos, precisos y finitos.\n\nDefinido: si se sigue dos veces, se obtiene el mismo resultado. Es reproducible.\nPreciso: implica el orden de realización de cada uno de los pasos.\nFinito: Tiene un numero determinado de pasos, implica que tiene un fin.\n\n\nUn algoritmo podemos definirlo como un programa o software.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html#para-escribir-un-buen-software-necesitas",
+    "href": "Parte3.html#para-escribir-un-buen-software-necesitas",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "2.3 Para escribir un buen software necesitas:",
+    "text": "2.3 Para escribir un buen software necesitas:\n\nEscribir código mantenible (maintainable code), usar control de versiones (version control) y rastreadores de problemas (issue trackers), revisiones de código (code reviews), pruebas unitarias (unit testing) y automatización de tareas (task automation).\nWilson, et al. 2014. PLOS Biology\n\nEn bioinformática, es fundamental garantizar el uso ético y responsable de datos sensibles, como los genomas humanos, respetando la privacidad y los marcos legales vigentes. Al mismo tiempo, se debe fomentar la ciencia abierta mediante prácticas transparentes y reproducibles, sin comprometer la integridad de la información. Estas acciones no solo fortalecen la confianza en los resultados, sino que también previenen errores graves que podrían derivar en la retracción de artículos científicos.\n\n\n\n\n\n\n\n\n\n\n\nNotePasos para escribir un buen software\n\n\n\n\nAnálisis del problema / Definir el problema\nDiseño del algoritmo / Diseño del programa\nCodificación / Escribir el código\nCompilación y ejecución del programa\nVerificación / Realizar pruebas\nDepuración / Detectar los errores y corregirlos\n\n\nProgramacion defensiva\n\n\nDocumentación",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html#paso-7-documentación",
+    "href": "Parte3.html#paso-7-documentación",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "2.4 Paso 7: Documentación",
+    "text": "2.4 Paso 7: Documentación\n\n\n\n\n\n\nNote\n\n\n\n\nTítulo (opcional)\nAutor (author): Su nombre\nDia (date): Fecha de creación\nPaquetes (packages)\nDirectorio de trabajo (Working directory): En que carpeta se encuentra tu datos y programa.\nInformación descriptiva del programa (Description): ¿Para qué sirve el programa? Ej: El siguiente programa realiza la suma de dos numeros enteros a partir de la entrada del usuario y posteriormente la imprime en pantalla.\nUsage ¿Cómo se utiliza?\nArgumentos (Arguments)\n\nInformación de entrada (Data Inputs): Ej: Solo numeros enteros (sin decimales).\nInformación de salida (Outpus): Graficas, figuras, tablas, etc.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html#puntos-claves-para-buenas-prácticas-en-bioinfo",
+    "href": "Parte3.html#puntos-claves-para-buenas-prácticas-en-bioinfo",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "2.5 Puntos claves para buenas prácticas en bioinfo ⭐",
+    "text": "2.5 Puntos claves para buenas prácticas en bioinfo ⭐\n\nEscriba programas para personas, no para computadoras (Documenta qué hace y por qué). - Se coherente en la nomenclatura, indentación y otros aspectos del estilo.\nModularidad: Divide los programas en funciones cortas de un solo propósito. 💻 📚\nNo repitas tu código. Crea pasos reproducibles o que se repitan por si solas. ➰\nPlanifique los errores (Programacion defensiva) 🚩\nOptimice el software sólo después de que funcione correctamente. - Si funciona no lo modifiques, simplificalo.\nColaborar - Busque siempre bibliotecas de software bien mantenidas que hagan lo que necesita. 👥\n\n\n\n\n\n\n\nNoteEjemplo de como realizo mis documentos 💜\n\n\n\nAqui les dejo el script que les doy a mis alumnos VisualizacionDatos.R del curso de Análisis de datos de RNA-Seq.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  },
+  {
+    "objectID": "Parte3.html#referencias",
+    "href": "Parte3.html#referencias",
+    "title": "2  Buenas prácticas en bioinformática",
+    "section": "2.6 Referencias",
+    "text": "2.6 Referencias\n\nPresentación de Reproducibilidad de Miriam Lerma\nPresentación introducción a Git, GitHub y Zenodo de Miriam Lerma\nPresentación de Introducción a la Bioinformática - Heladia Salgado\nMi próximo artículo científico en R de Florencia D´Andrea\nKristie Reproducible Research\nPresentación de Kristie\nFAIR- bioinformatic\nUnidad 1 Bioinformática e investigación reproducible\nThe five pillars of computational reproducibility: bioinformatics and beyond\nInvestigación reproducible y análisis de datos\nHaydee tutorial: Temas Selectos de Análisis Numérico y Computación Científica: Computo científico para el análisis de datos\nAlejandra Medina tutorial: Control de versiones con GitHub y RStudio\nWilson, et al. 2014. Best Practices for Scientific Computing. PLOS Biology\nEvelia Coss - tutorial Buenas practicas en R\nEvelia Coss - Make your CV tutorial\nMarkdwn Guide - Getting Started\nAllison Horst - Imagenes\nStatistical Computing using R and Python\nTraining Materials\nVisual Studio Code\nArticulo reproducibilidad",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Buenas prácticas en bioinformática</span>"
+    ]
+  }
+]

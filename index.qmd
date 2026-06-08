@@ -1,0 +1,54 @@
+::: {layout-ncol="2"}
+[![](figures/logo_y_475-2-1.png)](https://www.enesjuriquilla.unam.mx/?page_id=5126)
+:::
+
+# Información general {.unnumbered}
+
+- ::: {.panel-tabset group="globalInfo"}
+  ### Sobre el curso 📌
+
+  - **Semestre:** 1ero
+  - **Fechas:** agosto-diciembre
+  - **Lugar:** LIIGH-UNAM
+  - **Duración del curso:** 2 horas por clase
+
+  #### **Instructoras:**
+
+  - **Dra. Evelia Lorena Coss-Navarrete** - Profesora de asignatura de la ENES Unidad Juriquilla. [Pagina web](https://eveliacoss.github.io/)
+  - **Dra. Adriana Haydeé Contreras Peruyero** - Profesor Asociado C TC de la ENES Unidad Juriquilla. [Página web](https://haydeeperuyero.github.io/)
+
+  **Curso registrado en The Carpentries.**
+
+  Las instructoras estan certificados por [The Carpentries](https://carpentries.org/).
+
+  #### **Resumen:**
+
+  Este curso intensivo ofrece una introducción práctica a tres herramientas fundamentales para la ciencia de datos y el desarrollo reproducible: Git para control de versiones, Bash para automatización en la terminal y R para análisis estadístico y visualización. No se requiere experiencia previa: comenzaremos desde cero y avanzaremos paso a paso, combinando teoría y práctica en un entorno accesible.
+
+  #### **Enfoque de la audiencia:**
+
+  - **Público general interesado en aprender herramientas digitales**: no se requiere experiencia previa, el curso inicia desde cero.
+
+  - **Estudiantes y profesionales de cualquier disciplina** que deseen mejorar sus habilidades en manejo de datos, control de versiones y automatización.
+
+  **Personas con interés en ciencia de datos, programación o investigación reproducible**, pero que aún no han trabajado con Git, Bash o R.
+
+  ## Citar y reutilizar el material del curso
+
+  Los datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+  ### Requisitos previos
+
+  - Los participantes pueden traer su propia computadora (opcional). No se requiere experiencia previa: el curso comenzará desde cero.
+
+  ### Agenda 📆 {#agenda}
+
+  | Temas | Fechas |
+  |-------|:------:|
+  |       |        |
+  |       |        |
+  |       |        |
+  |       |        |
+  |       |        |
+  |       |        |
+  :::
