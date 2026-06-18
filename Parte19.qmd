@@ -1,10 +1,10 @@
 # Ignorar archivos/carpetas
 
-Es muy usual tener un archivo llamado `.gitignore` donde se pueden colocar los nombres de archivos o carpetas que no queremos llevar registro. 
+Es muy usual tener un archivo llamado `.gitignore` donde se pueden colocar los nombres de archivos o carpetas que no queremos llevar registro.
 
 Creemos unos archivos de prueba.
 
-```bash
+``` bash
 $ cd Mi_primer_repo
 $ mkdir resultados
 $ touch a.csv b.csv c.csv resultados/a.out resultados/b.out
@@ -12,34 +12,34 @@ $ touch a.csv b.csv c.csv resultados/a.out resultados/b.out
 
 Si preguntamos el estado veremos los cambios no registrados en el historial.
 
-```bash
+``` bash
 $ git status
 ```
 
 Estos archivos por el momento no nos sirven de nada y guardarlos o registrarlos sería una perdida de tiempo/espacio. Para ignorarlos, creamos el archivo `.gitigno` y añadimos los nombres a ese archivo:
 
-```bash
+``` bash
 $ nano .gitignore
 ```
 
-```bash
+``` bash
 *.csv
 resultados/
 ```
 
-```bash
+``` bash
 $ cat .gitignore
 ```
 
 Estos patrones le están diciendo a Git que ignore todos los archivos `.csv` y todo lo que hay en la carpeta `resultados`, si después añadimos algo a la carpeta lo seguirá ignorando. Y si alguno de esos archivos ya se le dijo a Git que llevará su registro lo seguirá registrando.
 
-```bash
+``` bash
 $ git status
 ```
 
 Si nos fijamos, el único documento que ahora nos menciona `Git` es el archivo `.gitignore`. Lo que nos falta es añadirlo y hacer el commit.
 
-```bash
+``` bash
 $ git add .gitignore
 $ git commit -m "Creamos el archivo gitignore e ignoramos todo lo que hay en resultados y archivos csv"
 $ git status
@@ -47,56 +47,52 @@ $ git status
 
 El archivo `.gitignore` nos ayuda a no cometer el error de accidentalmente tratar de registrar y rastrear algo que se le dijo que no lo hiciera.
 
-```bash
+``` bash
 $ git add a.csv
 ```
 
 Si realmente queremos agregarlo, tendríamos que usar la opción `-f`:
 
-```bash
+``` bash
 $ git add -f a.csv
 ```
 
 Para ver el estado de los archivos ignorados usamos la siguiente instrucción:
 
-```bash
+``` bash
 $ git status --ignored
 ```
-::: callout-note
+
+:::: callout-note
 ## Ejercicio 1
 
-Supongamos que tenemos las siguientes subcarpetas: 
+Supongamos que tenemos las siguientes subcarpetas:
 
-```bash
+``` bash
 resultados/plots
 resultados/datos
 ```
 
 ¿Qué tenemos que hacer si queremos ignorar solamente lo que hay en `datos` y no lo que hay en `plots`?
- 
+
 ::: {.callout-tip collapse="true" icon="false"}
 ## Solución
-  
-
-  
 :::
-:::
-
+::::
 
 Para ignorar por ejemplo todos los archivos que terminan en `.csv` excepto uno en específico (`b.csv`) podemos indicarlo en el archivo `.gitignore` como:
 
-```bash
+``` bash
 *.csv  # ignoramos todos los csv
 !b.csv # exepto el que se llama b.csv
 ```
 
-::: callout-note
+:::: callout-note
 ## Ejercicio 2
 
 Supongamos ahora que tenemos la siguiente estructura de carpetas:
 
-
-```bash
+``` bash
 resultados/plots
 resultados/datos
 resultados/img
@@ -107,43 +103,32 @@ Y que queremos ignorar todo excepto lo que hay en datos. ¿Cómo lo harían?
 
 ::: {.callout-tip collapse="true" icon="false"}
 ## Solución
-  
-
-  
 :::
-:::
-
+::::
 
 ::: callout-note
 ## Ejercicio 3
- 
+
 Supongamos que tenemos la siguiente estructura de archivos:
 
-
-```bash
+``` bash
 resultados/rdatos/a.csv
 resultados/rdatos/b.csv
 resultados/rdatos/c.csv
 resultados/rdatos/info.txt
 ```
 
-¿Cómo le indicas a Git que ignore todos los `csv` de la carpeta `rdatos` menos el que se llama `info.txt`?
-::: {.callout-tip collapse="true" icon="false"}
-## Solución
-  
-
-  
-:::
+¿Cómo le indicas a Git que ignore todos los `csv` de la carpeta `rdatos` menos el que se llama `info.txt`? ::: {.callout-tip collapse="true" icon="false"} \## Solución
 :::
 
+:::
 
-::: callout-note
+:::: callout-note
 ## Ejercicio 4
 
 Supongamos que tenemos la siguiente estructura de datos:
 
-
-```bash
+``` bash
 resultados/a.csv
 resultados/analisis1/b.csv
 resultados/analisis2/c.csv
@@ -151,29 +136,23 @@ resultados/analisis2/sub_1/d.csv
 ```
 
 ¿Cómo le indicamos a Git que ignore todos los archivos `.csv` sin indicar manualmente todos los directorios?
- 
+
 ::: {.callout-tip collapse="true" icon="false"}
 ## Solución
-  
-
-  
 :::
-:::
+::::
 
-::: callout-note
+:::: callout-note
 ## Ejercicio 5
 
 Si en el archivo `.gitignore` escribimos lo siguiente, ¿qué está ignorando?
 
-```bash
+``` bash
 *.csv
 !*.csv
 ```
+
 ::: {.callout-tip collapse="true" icon="false"}
 ## Solución
-  
-
-  
 :::
-:::
-
+::::

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Code &amp; Data Bootcamp: Git, Bash y R - 29&nbsp; Por llenar</title>
+<title>Code &amp; Data Bootcamp: Git, Bash y R - 28&nbsp; Conectar Github con RStudio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -75,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Parte12.html">**Sección 4** - x</a></li><li class="breadcrumb-item"><a href="./Parte24.html"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Por llenar</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Parte12.html">**Sección 3** - Introducción a Git/GitHub</a></li><li class="breadcrumb-item"><a href="./Parte24.html"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Conectar Github con RStudio</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -271,6 +305,84 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Introducción a Git / GitHub</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Instalar Git Bash en Windows</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Configurar Git</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Repositorios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Rastrear cambios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Explorando el historial</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte18.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Restore y reset</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte19.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Ignorar archivos/carpetas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte20.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Github</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte21.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Colaboradores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte22.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Conflictos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte23.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Trabajando con Ramas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte24.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Conectar Github con RStudio</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte25.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Resumen y Práctica Final</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -284,80 +396,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Parte12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Introducción a Git / GitHub</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte13.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Instalar Git Bash en Windows</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Configurar Git</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte15.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Repositorios</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte16.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Rastrear cambios</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte17.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Explorando el historial</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte18.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Restore y reset</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte19.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte20.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte21.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte22.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte23.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte24.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
+  <a href="./Parte26.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
   </div>
 </li>
       </ul>
@@ -373,7 +413,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Parte25.html" class="sidebar-item-text sidebar-link">
+  <a href="./Parte26.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
   </div>
 </li>
@@ -390,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Parte25.html" class="sidebar-item-text sidebar-link">
+  <a href="./Parte26.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Por llenar</span></span></a>
   </div>
 </li>
@@ -402,14 +442,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#configurar-rstudio-para-usar-git-bash-como-terminal" id="toc-configurar-rstudio-para-usar-git-bash-como-terminal" class="nav-link active" data-scroll-target="#configurar-rstudio-para-usar-git-bash-como-terminal"><span class="header-section-number">28.1</span> Configurar RStudio para usar Git Bash como terminal</a></li>
+  <li><a href="#abrir-la-terminal-de-git-bash-en-rstudio" id="toc-abrir-la-terminal-de-git-bash-en-rstudio" class="nav-link" data-scroll-target="#abrir-la-terminal-de-git-bash-en-rstudio"><span class="header-section-number">28.2</span> Abrir la terminal de Git Bash en RStudio</a></li>
+  <li><a href="#verificar-la-conexión" id="toc-verificar-la-conexión" class="nav-link" data-scroll-target="#verificar-la-conexión"><span class="header-section-number">28.3</span> Verificar la conexión</a></li>
+  <li><a href="#conexión-con-https" id="toc-conexión-con-https" class="nav-link" data-scroll-target="#conexión-con-https"><span class="header-section-number">28.4</span> Conexión con HTTPS</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Por llenar</span></h1>
+<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Conectar Github con RStudio</span></h1>
 </div>
 
 
@@ -424,8 +473,70 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="configurar-rstudio-para-usar-git-bash-como-terminal" class="level2" data-number="28.1">
+<h2 data-number="28.1" class="anchored" data-anchor-id="configurar-rstudio-para-usar-git-bash-como-terminal"><span class="header-section-number">28.1</span> Configurar RStudio para usar Git Bash como terminal</h2>
+<ol type="1">
+<li><p>Abre <strong>RStudio</strong>.</p></li>
+<li><p>Dirígete a <strong>Tools</strong> (Herramientas) en la barra superior y selecciona <strong>Global Options</strong> (Opciones globales).</p></li>
+<li><p>En el menú de opciones globales, selecciona la pestaña <strong>Terminal</strong>.</p></li>
+<li><p>En el campo <strong>New terminal open with</strong>, selecciona <strong>Git Bash</strong>.</p>
+<p><img src="figures/Rstudio_GitBash.jpg" class="quarto-discovered-preview-image img-fluid"></p></li>
+<li><p>Haz clic en <strong>Apply</strong> y luego en <strong>OK</strong>.</p></li>
+</ol>
+</section>
+<section id="abrir-la-terminal-de-git-bash-en-rstudio" class="level2" data-number="28.2">
+<h2 data-number="28.2" class="anchored" data-anchor-id="abrir-la-terminal-de-git-bash-en-rstudio"><span class="header-section-number">28.2</span> Abrir la terminal de Git Bash en RStudio</h2>
+<p>Ahora, para abrir la terminal de <strong>Git Bash dentro de RStudio</strong>, solo tienes que:</p>
+<ul>
+<li><p>Ir al <strong>Tools</strong> , hacer clic en <strong>Terminal</strong> y en abrir <strong>New terminal</strong>.</p></li>
+<li><p>Deberías ver que se abre una nueva sesión con <strong>Git Bash</strong> como la terminal predeterminada.</p></li>
+</ul>
+</section>
+<section id="verificar-la-conexión" class="level2" data-number="28.3">
+<h2 data-number="28.3" class="anchored" data-anchor-id="verificar-la-conexión"><span class="header-section-number">28.3</span> Verificar la conexión</h2>
+<p>Vuelve a la terminal y ejecuta el siguiente comando para verificar que tu clave SSH está correctamente configurada con GitHub:</p>
+<div class="sourceCode" id="cb1" data-eval="false"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-T</span> git@github.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>En caso de que se necesite, puedes especificar la llave que usaste:</p>
+<div class="sourceCode" id="cb2" data-eval="false"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-i</span> ~/.ssh/id_ed25519 <span class="at">-T</span> git@github.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>El comando <code>ssh -T git@github.com</code> simplemente verifica que tu clave privada se está usando correctamente y que tu clave pública ha sido registrada en GitHub.</p>
+<p>Si es la primera vez que te conectas a GitHub con SSH, puede que veas un mensaje que te pregunte si deseas continuar conectándote. Escribe “yes”.</p>
+<p>Si todo está bien configurado, deberías ver un mensaje similar a este:</p>
+<pre><code>Hi username! You've successfully authenticated, but GitHub does not provide shell access.</code></pre>
+<p>Esto confirmará que tu clave SSH se ha agregado correctamente a tu cuenta de GitHub y que la conexión es exitosa.</p>
+</section>
+<section id="conexión-con-https" class="level2" data-number="28.4">
+<h2 data-number="28.4" class="anchored" data-anchor-id="conexión-con-https"><span class="header-section-number">28.4</span> Conexión con HTTPS</h2>
+<p>Primero debemos asegurarnos que tenemos instalados los paquetes adecuados:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"usethis"</span>, <span class="st">"gitcreds"</span>, <span class="st">"gh"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ahora debemos identificarnos con nuestras credenciales de GitHub.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">"Usuario GitHub"</span>, <span class="at">user.email =</span> <span class="st">"email de la cuenta de GitHub"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Para poder subir los cambios a GitHub, necesitamos autenticarnos, es decir, probar que somos los dueños de la cuenta de GitHub.</p>
+<p>Con este método, se pueden clonar los repositorios usando el url que sale en HTTPS. Para este, necesitamos un <strong>personal access token</strong> (PATH).</p>
+<p>Para obtener el PATH, vamos a correr lo siguiente en la consola de R:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">scopes =</span> <span class="fu">c</span>(<span class="st">"repo"</span>, <span class="st">"user"</span>, <span class="st">"gist"</span>, <span class="st">"workflow"</span>),</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">description =</span> <span class="st">"alguna descripcion"</span>,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">host =</span> <span class="st">"https://github.com/"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Esta función nos abrirá un navegador para generar el PATH:</p>
+<ul>
+<li>Dar una descripción al PATH: por ejemplo “Laptop personal/Computadora laboratorio”.</li>
+<li>Cambiar la fecha de vencimiento: la fecha puede ser por cierta cantidad de días o sin fecha de vencimiento.</li>
+<li>Dejar las demás opciones default y seleccionar <code>Generar token</code>. Este token deben de <strong>guardarlo</strong> en algún lugar ya que no es posible verlo de nuevo una vez que cierren la página.</li>
+</ul>
+<p>Si olvidan su PATH es posible generar otro.</p>
+<p>Para guardar el PATH, ejecuten el siguiente código en la consola de RStudio:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>(<span class="at">url=</span><span class="st">"http://github.user"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Cuando se habrá la ventana les pedirá pegar su PATH en la consola y presionar enter. De está forma las credenciales ya quedarán guardadas en su computadora.</p>
+<p>Para confirmar que su PATH si se guardo correctamente, correremos el siguiente código:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gh<span class="sc">::</span><span class="fu">gh_whoami</span>(<span class="at">.token =</span> <span class="st">"ghnaojdnvoadenvas_dcasc86&lt;"</span>, <span class="at">.api_url =</span> <span class="st">"https://github.com"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">git_sitrep</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Lo que deberán ver son sus datos de su cuenta de GitHub.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -779,12 +890,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./Parte23.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Por llenar</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Trabajando con Ramas</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./Parte25.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Por llenar</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Resumen y Práctica Final</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
