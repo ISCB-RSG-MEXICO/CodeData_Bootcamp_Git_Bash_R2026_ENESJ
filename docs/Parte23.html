@@ -481,11 +481,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="crear-una-rama" class="level2" data-number="27.1">
 <h2 data-number="27.1" class="anchored" data-anchor-id="crear-una-rama"><span class="header-section-number">27.1</span> 1. Crear una rama</h2>
 <p>Cuando trabajas en un proyecto, es una buena práctica crear una rama separada para cada nueva función o corrección de errores que estés desarrollando. Para crear una nueva rama en Git, utiliza el comando:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git checkout <span class="at">-b</span> nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Este comando crea una nueva rama y te cambia a ella al mismo tiempo.</p>
 <p>Otra opción es la siguiente:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git branch nombre_de_la_rama</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git switch nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch nombre_de_la_rama</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> switch nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="trabajar-en-la-rama" class="level2" data-number="27.2">
 <h2 data-number="27.2" class="anchored" data-anchor-id="trabajar-en-la-rama"><span class="header-section-number">27.2</span> 2. Trabajar en la rama</h2>
@@ -494,24 +494,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="agregar-y-confirmar-cambios" class="level2" data-number="27.3">
 <h2 data-number="27.3" class="anchored" data-anchor-id="agregar-y-confirmar-cambios"><span class="header-section-number">27.3</span> 3. Agregar y confirmar cambios</h2>
 <p>Una vez que hayas realizado cambios que desees incluir en la rama, añádelos al área de preparación con:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git add nombre_del_archivo</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add nombre_del_archivo</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Luego, confirma los cambios con un mensaje descriptivo:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"Mensaje descriptivo de los cambios"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Mensaje descriptivo de los cambios"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="empujar-la-rama-al-repositorio-remoto" class="level2" data-number="27.4">
 <h2 data-number="27.4" class="anchored" data-anchor-id="empujar-la-rama-al-repositorio-remoto"><span class="header-section-number">27.4</span> 4. Empujar la rama al repositorio remoto</h2>
 <p>Si estás trabajando en un repositorio remoto compartido con otros colaboradores, es posible que desees compartir tus cambios. Para esto, hay dos formas de hacerlo. La primera es enviar los cambios a una rama remota y después confirmarlos y unirlos, para eso utiliza el comando:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git push origin nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Esto enviará la nueva rama y los cambios asociados al repositorio remoto.</p>
 </section>
 <section id="fusionar-cambios" class="level2" data-number="27.5">
 <h2 data-number="27.5" class="anchored" data-anchor-id="fusionar-cambios"><span class="header-section-number">27.5</span> 5. Fusionar cambios</h2>
 <p>Una vez que hayas completado tus cambios y estés listo para incorporarlos al proyecto principal, puedes fusionar tu rama con la rama principal (generalmente <code>main</code> o <code>master</code>). Para hacerlo, primero cámbiate a la rama principal:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git checkout main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Otra opción:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git switch main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> switch main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Luego, fusiona tu rama con la rama principal:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git merge nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>NOTA:</strong> Los pasos 4 y 5 se pueden intercambiar de orden, es decir primero hacer el merge local cambiandonos a la rama principal y después enviando los cambios al remoto. Es importante primero hacer un <code>git pull</code> para actualizar nuestro local en la rama principal.</p>
 </section>
 <section id="resolver-conflictos-si-los-hay" class="level2" data-number="27.6">
@@ -521,12 +521,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="eliminar-la-rama-opcional" class="level2" data-number="27.7">
 <h2 data-number="27.7" class="anchored" data-anchor-id="eliminar-la-rama-opcional"><span class="header-section-number">27.7</span> 7. Eliminar la rama (opcional)</h2>
 <p>Una vez que hayas fusionado tus cambios en la rama principal y ya no necesites la rama de la función, puedes eliminarla:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git branch <span class="at">-d</span> nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">-d</span> nombre_de_la_rama</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="actualizar-y-sincronizar" class="level2" data-number="27.8">
 <h2 data-number="27.8" class="anchored" data-anchor-id="actualizar-y-sincronizar"><span class="header-section-number">27.8</span> 8. Actualizar y sincronizar</h2>
 <p>Es importante mantener tu repositorio local actualizado con los cambios de otros colaboradores. Para hacerlo, utiliza:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git pull origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Esto traerá los últimos cambios de la rama principal del repositorio remoto y los fusionará con tu rama local.</p>
 <p>Siguiendo estos pasos, podrás trabajar de manera efectiva con ramas en Git en un entorno colaborativo. Recuerda comunicarte con tus colaboradores y mantener un flujo de trabajo ordenado para evitar conflictos y errores.</p>
 

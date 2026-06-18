@@ -48,29 +48,27 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 
 Esto confirmará que tu clave SSH se ha agregado correctamente a tu cuenta de GitHub y que la conexión es exitosa.
 
-
 ## Conexión con HTTPS
-
 
 Primero debemos asegurarnos que tenemos instalados los paquetes adecuados:
 
-```r
+``` r
 install.packages(c("usethis", "gitcreds", "gh"))
 ```
 
 Ahora debemos identificarnos con nuestras credenciales de GitHub.
 
-```r
+``` r
 usethis::use_git_config(user.name = "Usuario GitHub", user.email = "email de la cuenta de GitHub")
 ```
 
-Para poder subir los cambios a GitHub, necesitamos autenticarnos, es decir, probar que somos los dueños de la cuenta de GitHub. 
+Para poder subir los cambios a GitHub, necesitamos autenticarnos, es decir, probar que somos los dueños de la cuenta de GitHub.
 
-Con este método, se pueden clonar los repositorios usando el url que sale en HTTPS. Para este, necesitamos un __personal access token__ (PATH). 
+Con este método, se pueden clonar los repositorios usando el url que sale en HTTPS. Para este, necesitamos un **personal access token** (PATH).
 
 Para obtener el PATH, vamos a correr lo siguiente en la consola de R:
 
-```r
+``` r
 usethis::create_github_token(
   scopes = c("repo", "user", "gist", "workflow"),
   description = "alguna descripcion",
@@ -80,15 +78,15 @@ usethis::create_github_token(
 
 Esta función nos abrirá un navegador para generar el PATH:
 
-  - Dar una descripción al PATH: por ejemplo "Laptop personal/Computadora laboratorio".
-  - Cambiar la fecha de vencimiento: la fecha puede ser por cierta cantidad de días o sin fecha de vencimiento.
-  - Dejar las demás opciones default y seleccionar `Generar token`. Este token deben de **guardarlo** en algún lugar ya que no es posible verlo de nuevo una vez que cierren la página. 
-  
+-   Dar una descripción al PATH: por ejemplo "Laptop personal/Computadora laboratorio".
+-   Cambiar la fecha de vencimiento: la fecha puede ser por cierta cantidad de días o sin fecha de vencimiento.
+-   Dejar las demás opciones default y seleccionar `Generar token`. Este token deben de **guardarlo** en algún lugar ya que no es posible verlo de nuevo una vez que cierren la página.
+
 Si olvidan su PATH es posible generar otro.
 
 Para guardar el PATH, ejecuten el siguiente código en la consola de RStudio:
 
-```r
+``` r
 gitcreds::gitcreds_set(url="http://github.user")
 ```
 
@@ -96,7 +94,7 @@ Cuando se habrá la ventana les pedirá pegar su PATH en la consola y presionar 
 
 Para confirmar que su PATH si se guardo correctamente, correremos el siguiente código:
 
-```r
+``` r
 gh::gh_whoami(.token = "ghnaojdnvoadenvas_dcasc86<", .api_url = "https://github.com")
 
 

@@ -284,7 +284,7 @@
     "href": "Parte23.html#crear-una-rama",
     "title": "27  Trabajando con Ramas",
     "section": "27.1 1. Crear una rama",
-    "text": "27.1 1. Crear una rama\nCuando trabajas en un proyecto, es una buena práctica crear una rama separada para cada nueva función o corrección de errores que estés desarrollando. Para crear una nueva rama en Git, utiliza el comando:\n$ git checkout -b nombre_de_la_rama\nEste comando crea una nueva rama y te cambia a ella al mismo tiempo.\nOtra opción es la siguiente:\n$ git branch nombre_de_la_rama\n$ git switch nombre_de_la_rama"
+    "text": "27.1 1. Crear una rama\nCuando trabajas en un proyecto, es una buena práctica crear una rama separada para cada nueva función o corrección de errores que estés desarrollando. Para crear una nueva rama en Git, utiliza el comando:\ngit checkout -b nombre_de_la_rama\nEste comando crea una nueva rama y te cambia a ella al mismo tiempo.\nOtra opción es la siguiente:\ngit branch nombre_de_la_rama\ngit switch nombre_de_la_rama"
   },
   {
     "objectID": "Parte23.html#trabajar-en-la-rama",
@@ -298,21 +298,21 @@
     "href": "Parte23.html#agregar-y-confirmar-cambios",
     "title": "27  Trabajando con Ramas",
     "section": "27.3 3. Agregar y confirmar cambios",
-    "text": "27.3 3. Agregar y confirmar cambios\nUna vez que hayas realizado cambios que desees incluir en la rama, añádelos al área de preparación con:\n$ git add nombre_del_archivo\nLuego, confirma los cambios con un mensaje descriptivo:\n$ git commit -m \"Mensaje descriptivo de los cambios\""
+    "text": "27.3 3. Agregar y confirmar cambios\nUna vez que hayas realizado cambios que desees incluir en la rama, añádelos al área de preparación con:\ngit add nombre_del_archivo\nLuego, confirma los cambios con un mensaje descriptivo:\ngit commit -m \"Mensaje descriptivo de los cambios\""
   },
   {
     "objectID": "Parte23.html#empujar-la-rama-al-repositorio-remoto",
     "href": "Parte23.html#empujar-la-rama-al-repositorio-remoto",
     "title": "27  Trabajando con Ramas",
     "section": "27.4 4. Empujar la rama al repositorio remoto",
-    "text": "27.4 4. Empujar la rama al repositorio remoto\nSi estás trabajando en un repositorio remoto compartido con otros colaboradores, es posible que desees compartir tus cambios. Para esto, hay dos formas de hacerlo. La primera es enviar los cambios a una rama remota y después confirmarlos y unirlos, para eso utiliza el comando:\n$ git push origin nombre_de_la_rama\nEsto enviará la nueva rama y los cambios asociados al repositorio remoto."
+    "text": "27.4 4. Empujar la rama al repositorio remoto\nSi estás trabajando en un repositorio remoto compartido con otros colaboradores, es posible que desees compartir tus cambios. Para esto, hay dos formas de hacerlo. La primera es enviar los cambios a una rama remota y después confirmarlos y unirlos, para eso utiliza el comando:\ngit push origin nombre_de_la_rama\nEsto enviará la nueva rama y los cambios asociados al repositorio remoto."
   },
   {
     "objectID": "Parte23.html#fusionar-cambios",
     "href": "Parte23.html#fusionar-cambios",
     "title": "27  Trabajando con Ramas",
     "section": "27.5 5. Fusionar cambios",
-    "text": "27.5 5. Fusionar cambios\nUna vez que hayas completado tus cambios y estés listo para incorporarlos al proyecto principal, puedes fusionar tu rama con la rama principal (generalmente main o master). Para hacerlo, primero cámbiate a la rama principal:\n$ git checkout main\nOtra opción:\n$ git switch main\nLuego, fusiona tu rama con la rama principal:\n$ git merge nombre_de_la_rama\nNOTA: Los pasos 4 y 5 se pueden intercambiar de orden, es decir primero hacer el merge local cambiandonos a la rama principal y después enviando los cambios al remoto. Es importante primero hacer un git pull para actualizar nuestro local en la rama principal."
+    "text": "27.5 5. Fusionar cambios\nUna vez que hayas completado tus cambios y estés listo para incorporarlos al proyecto principal, puedes fusionar tu rama con la rama principal (generalmente main o master). Para hacerlo, primero cámbiate a la rama principal:\ngit checkout main\nOtra opción:\ngit switch main\nLuego, fusiona tu rama con la rama principal:\ngit merge nombre_de_la_rama\nNOTA: Los pasos 4 y 5 se pueden intercambiar de orden, es decir primero hacer el merge local cambiandonos a la rama principal y después enviando los cambios al remoto. Es importante primero hacer un git pull para actualizar nuestro local en la rama principal."
   },
   {
     "objectID": "Parte23.html#resolver-conflictos-si-los-hay",
@@ -326,14 +326,14 @@
     "href": "Parte23.html#eliminar-la-rama-opcional",
     "title": "27  Trabajando con Ramas",
     "section": "27.7 7. Eliminar la rama (opcional)",
-    "text": "27.7 7. Eliminar la rama (opcional)\nUna vez que hayas fusionado tus cambios en la rama principal y ya no necesites la rama de la función, puedes eliminarla:\n$ git branch -d nombre_de_la_rama"
+    "text": "27.7 7. Eliminar la rama (opcional)\nUna vez que hayas fusionado tus cambios en la rama principal y ya no necesites la rama de la función, puedes eliminarla:\ngit branch -d nombre_de_la_rama"
   },
   {
     "objectID": "Parte23.html#actualizar-y-sincronizar",
     "href": "Parte23.html#actualizar-y-sincronizar",
     "title": "27  Trabajando con Ramas",
     "section": "27.8 8. Actualizar y sincronizar",
-    "text": "27.8 8. Actualizar y sincronizar\nEs importante mantener tu repositorio local actualizado con los cambios de otros colaboradores. Para hacerlo, utiliza:\n$ git pull origin main\nEsto traerá los últimos cambios de la rama principal del repositorio remoto y los fusionará con tu rama local.\nSiguiendo estos pasos, podrás trabajar de manera efectiva con ramas en Git en un entorno colaborativo. Recuerda comunicarte con tus colaboradores y mantener un flujo de trabajo ordenado para evitar conflictos y errores."
+    "text": "27.8 8. Actualizar y sincronizar\nEs importante mantener tu repositorio local actualizado con los cambios de otros colaboradores. Para hacerlo, utiliza:\ngit pull origin main\nEsto traerá los últimos cambios de la rama principal del repositorio remoto y los fusionará con tu rama local.\nSiguiendo estos pasos, podrás trabajar de manera efectiva con ramas en Git en un entorno colaborativo. Recuerda comunicarte con tus colaboradores y mantener un flujo de trabajo ordenado para evitar conflictos y errores."
   },
   {
     "objectID": "Parte24.html#configurar-rstudio-para-usar-git-bash-como-terminal",
