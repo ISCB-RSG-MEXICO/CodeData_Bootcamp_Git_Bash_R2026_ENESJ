@@ -45,15 +45,16 @@ book:
       - Parte22.qmd # Resolviendo conflictos
       - Parte23.qmd # Trabajando con ramas
       - Parte24.qmd # Conexión RStudio con Git 
+      - Parte25.qmd # Resumen y practica final
     - part: "**Sección 4** - x"
       chapters:  
-        - Parte25.qmd 
+        - Parte26.qmd 
     - part: "**Sección 5** - Introducción a R y RStudio"
       chapters:  
-      - Parte25.qmd   
+      - Parte26.qmd   
     - part: "**Sección 6** - "
       chapters:  
-      - Parte25.qmd 
+      - Parte26.qmd 
 
       
   # Information
