@@ -397,5 +397,54 @@
     "title": "29  Resumen y Práctica Final",
     "section": "29.5 Referencias",
     "text": "29.5 Referencias\n\nEvelia tutorial:Workshop sobre Git / Github 2025\nHaydee tutorial: Temas Selectos de Análisis Numérico y Computación Científica: Computo científico para el análisis de datos\nAlejandra Medina tutorial: Control de versiones con GitHub y RStudio"
+  },
+  {
+    "objectID": "Parte30.html",
+    "href": "Parte30.html",
+    "title": "31  ¿Por qué visualizar datos?",
+    "section": "",
+    "text": "Los datos por sí solos rara vez cuentan una historia. Una tabla con cientos o miles de observaciones puede contener patrones, tendencias o valores atípicos que son difíciles de identificar únicamente leyendo números.\nLa visualización de datos nos permite:\n\nExplorar nuestros datos antes de analizarlos.\nDetectar errores, valores extremos o datos faltantes.\nIdentificar patrones y relaciones entre variables.\nComunicar resultados de forma clara y efectiva.\nGenerar nuevas preguntas e hipótesis.\n\nEn otras palabras, una gráfica no es únicamente una figura para el reporte final; es una herramienta fundamental para comprender nuestros datos.\n\n32 ¿Por qué usar R para visualizar datos?\nExisten muchas herramientas para crear gráficas, pero R se ha convertido en uno de los lenguajes más utilizados en ciencia de datos y estadística debido a que:\n\nEs gratuito y de código abierto.\nPermite realizar desde la limpieza de datos hasta el análisis estadístico y la visualización en un mismo entorno.\nHace posible reproducir nuestros análisis y compartirlos fácilmente.\nCuenta con miles de paquetes desarrollados por una comunidad muy activa.\nProduce figuras de alta calidad listas para artículos, reportes y presentaciones.\n\n\n\n33 ¿Por qué ggplot2?\nEl paquete ggplot2 es una de las herramientas más populares para crear gráficos en R. Basado en la Gramática de los Gráficos, permite construir visualizaciones complejas a partir de componentes simples y consistentes.\nCon ggplot2 podemos:\n\nCrear gráficos claros y estéticamente agradables.\nPersonalizar prácticamente cualquier aspecto de una figura.\nGenerar visualizaciones reproducibles.\nTrabajar con una sintaxis coherente y flexible.\n\nVamos a aprender a transformar datos en visualizaciones que nos ayuden a explorar, entender y comunicar información."
+  },
+  {
+    "objectID": "Parte30.html#por-qué-usar-r-para-visualizar-datos",
+    "href": "Parte30.html#por-qué-usar-r-para-visualizar-datos",
+    "title": "31  ¿Por qué visualizar datos?",
+    "section": "31.1 ¿Por qué usar R para visualizar datos?",
+    "text": "31.1 ¿Por qué usar R para visualizar datos?\nExisten muchas herramientas para crear gráficas, pero R se ha convertido en uno de los lenguajes más utilizados en ciencia de datos y estadística debido a que:\n\nEs gratuito y de código abierto.\nPermite realizar desde la limpieza de datos hasta el análisis estadístico y la visualización en un mismo entorno.\nHace posible reproducir nuestros análisis y compartirlos fácilmente.\nCuenta con miles de paquetes desarrollados por una comunidad muy activa.\nProduce figuras de alta calidad listas para artículos, reportes y presentaciones."
+  },
+  {
+    "objectID": "Parte30.html#por-qué-ggplot2",
+    "href": "Parte30.html#por-qué-ggplot2",
+    "title": "31  ¿Por qué visualizar datos?",
+    "section": "31.2 ¿Por qué ggplot2?",
+    "text": "31.2 ¿Por qué ggplot2?\nEl paquete ggplot2 es una de las herramientas más populares para crear gráficos en R. Basado en la Gramática de los Gráficos, permite construir visualizaciones complejas a partir de componentes simples y consistentes.\nCon ggplot2 podemos:\n\nCrear gráficos claros y estéticamente agradables.\nPersonalizar prácticamente cualquier aspecto de una figura.\nGenerar visualizaciones reproducibles.\nTrabajar con una sintaxis coherente y flexible.\n\nVamos a aprender a transformar datos en visualizaciones que nos ayuden a explorar, entender y comunicar información."
+  },
+  {
+    "objectID": "Parte31.html#desglose-de-las-capas-comunes",
+    "href": "Parte31.html#desglose-de-las-capas-comunes",
+    "title": "32  La Gramática de los Gráficos (GG)",
+    "section": "32.1 Desglose de las capas comunes",
+    "text": "32.1 Desglose de las capas comunes\n\nDatos:\n\nsus datos, en formato tidy o dataframe, proporcionarán los ingredientes para su trazado\nutilice las técnicas dplyr para preparar los datos para un formato de trazado óptimo\npor lo general, esto significa que debe tener una fila por cada observación que desea trazar\n\nEstética (Aesthetics / aes), para hacer visibles los datos\n\nx, y: variable a lo largo de los ejes x e y.\ncolour: color de las variables según los datos.\nfill: color interior de la zona o relleno.\ngroup: a qué grupo pertenece una geom.\nshape: la figura utilizada para trazar un punto.\nlinetype: tipo de línea utilizada (sólida, discontinua, etc.).\nsize: escala de tamaño para una dimensión extra\nalpha: transparencia del objeto geométrico\n\nObjetos geométricos (geoms - determina el tipo de trazado)\n\ngeom_point(): gráfico de dispersión\ngeom_line(): líneas que conectan puntos aumentando el valor de x\ngeom_path(): líneas que conectan puntos en secuencia de aparición\ngeom_boxplot(): gráfico de caja y bigotes para variables categóricas\ngeom_bar(): gráficos de barras para el eje x categórico\ngeom_histogram(): histograma para eje x continuo\ngeom_violin(): núcleo de distribución de la dispersión de datos\ngeom_smooth(): línea de función basada en datos\n\nFacetas:\n\nfacet_wrap() o facet_grid() para múltiplos pequeños\n\nEstadísticas:\n\nsimilar a geoms, pero computada\nmuestran medias, recuentos y otros resúmenes estadísticos de los datos\n\nCoordenadas - ajuste de datos en una página\n\ncoord_cartesian para establecer límites\ncoord_polar para gráficos circulares\ncoord_map para diferentes proyecciones cartográficas\n\nTemas:\n\nparámetros visuales generales\nfuentes, colores, formas, contornos"
+  },
+  {
+    "objectID": "Parte31.html#colocando-las-capas-juntas",
+    "href": "Parte31.html#colocando-las-capas-juntas",
+    "title": "32  La Gramática de los Gráficos (GG)",
+    "section": "32.2 Colocando las capas juntas",
+    "text": "32.2 Colocando las capas juntas\nLos pasos básicos para contruir el plot son los siguientes:\n\n\n\n\n\n\nNote\n\n\n\n\nCrear el objeto de plot:\n\n\nplot_object &lt;- ggplot()\n\n\nAgregar la capa geométrica\n\n\nplot_object &lt;- plot_object + geom_*()\n\n\nAgregar las capas de apariencia:\n\n\nplot_object &lt;- plot_object + geom_*() + theme()\n\n\nRepetir pasos 2 y 3 hasta estar satisfechos, luego imprimir:\n\n\nplot_object"
+  },
+  {
+    "objectID": "Parte31.html#cheatsheet",
+    "href": "Parte31.html#cheatsheet",
+    "title": "32  La Gramática de los Gráficos (GG)",
+    "section": "32.3 Cheatsheet",
+    "text": "32.3 Cheatsheet"
+  },
+  {
+    "objectID": "Parte31.html#referencias",
+    "href": "Parte31.html#referencias",
+    "title": "32  La Gramática de los Gráficos (GG)",
+    "section": "32.4 Referencias",
+    "text": "32.4 Referencias\n\nMás información en en el Workshop 3: Introduction to data visualisation with ggplot2\nHaydee tutorial: Seminario de Estadística: Análisis de Datos con R\nTutorial R-Ladies Morelia Reprohack 2024"
   }
 ]

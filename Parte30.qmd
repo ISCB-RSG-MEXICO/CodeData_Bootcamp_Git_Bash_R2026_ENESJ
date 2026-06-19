@@ -1,0 +1,37 @@
+# ¿Por qué visualizar datos?
+
+Los datos por sí solos rara vez cuentan una historia. Una tabla con cientos o miles de observaciones puede contener patrones, tendencias o valores atípicos que son difíciles de identificar únicamente leyendo números.
+
+La visualización de datos nos permite:
+
+- Explorar nuestros datos antes de analizarlos.
+- Detectar errores, valores extremos o datos faltantes.
+- Identificar patrones y relaciones entre variables.
+- Comunicar resultados de forma clara y efectiva.
+- Generar nuevas preguntas e hipótesis.
+
+En otras palabras, **una gráfica no es únicamente una figura para el reporte final; es una herramienta fundamental para comprender nuestros datos**.
+
+
+## ¿Por qué usar R para visualizar datos?
+
+Existen muchas herramientas para crear gráficas, pero **R se ha convertido en uno de los lenguajes más utilizados en ciencia de datos y estadística** debido a que:
+
+- Es gratuito y de código abierto.
+- Permite realizar desde la limpieza de datos hasta el análisis estadístico y la visualización en un mismo entorno.
+- Hace posible reproducir nuestros análisis y compartirlos fácilmente.
+- Cuenta con miles de paquetes desarrollados por una comunidad muy activa.
+- Produce figuras de alta calidad listas para artículos, reportes y presentaciones.
+
+## ¿Por qué `ggplot2`?
+
+El paquete `ggplot2` es una de las herramientas más populares para crear gráficos en R. Basado en la *Gramática de los Gráficos*, permite construir visualizaciones complejas a partir de componentes simples y consistentes.
+
+Con `ggplot2` podemos:
+
+- Crear gráficos claros y estéticamente agradables.
+- Personalizar prácticamente cualquier aspecto de una figura.
+- Generar visualizaciones reproducibles.
+- Trabajar con una sintaxis coherente y flexible.
+
+Vamos a aprender a transformar datos en visualizaciones que nos ayuden a **explorar, entender y comunicar información**.

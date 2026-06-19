@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dra. Evelia Coss, Dra. Haydedé Peruyero">
-<meta name="dcterms.date" content="2026-06-15">
 
-<title>Code &amp; Data Bootcamp: Git, Bash y R</title>
+<title>Code &amp; Data Bootcamp: Git, Bash y R - 31&nbsp; ¿Por qué visualizar datos?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Presentaciones.html" rel="next">
+<link href="./Parte26.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Información general</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Parte30.html">**Sección 6** - Gráficos con ggplot2 </a></li><li class="breadcrumb-item"><a href="./Parte30.html"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">¿Por qué visualizar datos?</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -130,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Información general</span></a>
   </div>
 </li>
@@ -391,20 +389,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Parte30.html" class="sidebar-item-text sidebar-link">
+  <a href="./Parte30.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">¿Por qué visualizar datos?</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte31.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">La Gramática de los Gráficos (GG)</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Parte32.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Básicos de la visualización de datos</span></span></a>
   </div>
 </li>
       </ul>
@@ -419,7 +405,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#información-general" id="toc-información-general" class="nav-link active" data-scroll-target="#información-general">Información general</a></li>
+  <li><a href="#por-qué-usar-r-para-visualizar-datos" id="toc-por-qué-usar-r-para-visualizar-datos" class="nav-link active" data-scroll-target="#por-qué-usar-r-para-visualizar-datos"><span class="header-section-number">31.1</span> ¿Por qué usar R para visualizar datos?</a></li>
+  <li><a href="#por-qué-ggplot2" id="toc-por-qué-ggplot2" class="nav-link" data-scroll-target="#por-qué-ggplot2"><span class="header-section-number">31.2</span> ¿Por qué <code>ggplot2</code>?</a></li>
   </ul>
 </nav>
     </div>
@@ -428,26 +415,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Code &amp; Data Bootcamp: Git, Bash y R</h1>
+<h1 class="title"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">¿Por qué visualizar datos?</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Dra. Evelia Coss, Dra. Haydedé Peruyero </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 15, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -455,281 +430,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 50.0%;justify-content: center;">
-<figure class="figure">
-<p><a href="https://www.enesjuriquilla.unam.mx/?page_id=5126"><img src="figures/logo_y_475-2-1.png" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="información-general" class="level1 unnumbered">
-<h1 class="unnumbered">Información general</h1>
+<p>Los datos por sí solos rara vez cuentan una historia. Una tabla con cientos o miles de observaciones puede contener patrones, tendencias o valores atípicos que son difíciles de identificar únicamente leyendo números.</p>
+<p>La visualización de datos nos permite:</p>
 <ul>
-<li><div class="tabset-margin-container"></div><div class="panel-tabset" data-group="globalInfo">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Sobre el curso 📌</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Requisitos previos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Agenda 📆</a></li></ul>
-<div class="tab-content" data-group="globalInfo">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<li>Explorar nuestros datos antes de analizarlos.</li>
+<li>Detectar errores, valores extremos o datos faltantes.</li>
+<li>Identificar patrones y relaciones entre variables.</li>
+<li>Comunicar resultados de forma clara y efectiva.</li>
+<li>Generar nuevas preguntas e hipótesis.</li>
+</ul>
+<p>En otras palabras, <strong>una gráfica no es únicamente una figura para el reporte final; es una herramienta fundamental para comprender nuestros datos</strong>.</p>
+<section id="por-qué-usar-r-para-visualizar-datos" class="level2" data-number="31.1">
+<h2 data-number="31.1" class="anchored" data-anchor-id="por-qué-usar-r-para-visualizar-datos"><span class="header-section-number">31.1</span> ¿Por qué usar R para visualizar datos?</h2>
+<p>Existen muchas herramientas para crear gráficas, pero <strong>R se ha convertido en uno de los lenguajes más utilizados en ciencia de datos y estadística</strong> debido a que:</p>
 <ul>
-<li><strong>Fechas:</strong> 15, 18, 22 y 25 de junio, 2026</li>
-<li><strong>Días:</strong> Lunes y jueves</li>
-<li><strong>Lugar:</strong> ENES Juriquilla-UNAM</li>
-<li><strong>Horario:</strong> De 10:00 a 14:00 horas</li>
-<li><strong>Duración:</strong> 16 horas, 4 horas por día&nbsp;</li>
-<li><strong>Cupo máximo:</strong> 50 <strong>(</strong>30 personas en presencial y 20 en línea)</li>
-<li><strong>Idioma:</strong> Español</li>
-<li><strong>Nivel:</strong> Básico&nbsp;</li>
-<li><strong>Modalidad:</strong> Híbrido</li>
-<li><strong>Sobre el curso:</strong> Curso extracurricular interno en la ENES Juriquilla.</li>
+<li>Es gratuito y de código abierto.</li>
+<li>Permite realizar desde la limpieza de datos hasta el análisis estadístico y la visualización en un mismo entorno.</li>
+<li>Hace posible reproducir nuestros análisis y compartirlos fácilmente.</li>
+<li>Cuenta con miles de paquetes desarrollados por una comunidad muy activa.</li>
+<li>Produce figuras de alta calidad listas para artículos, reportes y presentaciones.</li>
 </ul>
-<p><img src="figures/CODE &amp; DATA (630 x 1200 px).png" class="img-fluid" width="308"></p>
-<h4 id="instructoras" class="anchored"><strong>Instructoras:</strong></h4>
+</section>
+<section id="por-qué-ggplot2" class="level2" data-number="31.2">
+<h2 data-number="31.2" class="anchored" data-anchor-id="por-qué-ggplot2"><span class="header-section-number">31.2</span> ¿Por qué <code>ggplot2</code>?</h2>
+<p>El paquete <code>ggplot2</code> es una de las herramientas más populares para crear gráficos en R. Basado en la <em>Gramática de los Gráficos</em>, permite construir visualizaciones complejas a partir de componentes simples y consistentes.</p>
+<p>Con <code>ggplot2</code> podemos:</p>
 <ul>
-<li><strong>Dra. Evelia Lorena Coss-Navarrete</strong> - Profesora de asignatura de la ENES Unidad Juriquilla. <a href="https://eveliacoss.github.io/">Pagina web</a></li>
-<li><strong>Dra. Adriana Haydeé Contreras Peruyero</strong> - Profesor Asociado C TC de la ENES Unidad Juriquilla. <a href="https://haydeeperuyero.github.io/">Página web</a></li>
+<li>Crear gráficos claros y estéticamente agradables.</li>
+<li>Personalizar prácticamente cualquier aspecto de una figura.</li>
+<li>Generar visualizaciones reproducibles.</li>
+<li>Trabajar con una sintaxis coherente y flexible.</li>
 </ul>
-<p><strong>Curso registrado en The Carpentries.</strong></p>
-<p>Las instructoras estan certificados por <a href="https://carpentries.org/">The Carpentries</a>.</p>
-<h4 id="ayudantes-miembros-del-rsg-méxico" class="anchored"><strong>Ayudantes, miembros del RSG-México:</strong></h4>
-<ul>
-<li><p><strong>Mayela Guadalupe Fosado Mendoza</strong>, estudiante de licenciatura en Microbiología, UAQ (<a href="mailto:maye.fosado@gmail.com">maye.fosado@gmail.com</a>) (Ayudante presencial).&nbsp;</p></li>
-<li><p><strong>Emilio Ortiz Avila</strong>, estudiante de licenciatura en Microbiología, UAQ (<a href="mailto:aeortiz06@gmail.com">aeortiz06@gmail.com</a> ) (Ayudante presencial).&nbsp;</p></li>
-<li><p><strong>Johanna Castelán Camarillo</strong>, maestría en Biotecnología, Universidad Popular Autónoma del Estado de Puebla (<a href="mailto:johan.ccas02@gmail.com">johan.ccas02@gmail.com</a> ) (Ayudante virtual)</p></li>
-<li><p><strong>Mariana Devon Lopez</strong>, egresada de la maestría en la Escuela de Salud pública de méxico (<a href="mailto:mariana.devon@icloud.com">mariana.devon@icloud.com</a>) (Ayudante virtual)</p></li>
-</ul>
-<h4 id="resumen" class="anchored"><strong>Resumen:</strong></h4>
-<p>Este curso intensivo ofrece una introducción práctica a tres herramientas fundamentales para la ciencia de datos y el desarrollo reproducible: <strong>Git</strong> para control de versiones, <strong>Bash</strong> para automatización en la terminal y <strong>R</strong> para análisis estadístico y visualización. No se requiere experiencia previa: comenzaremos desde cero y avanzaremos paso a paso, combinando teoría y práctica en un entorno accesible.</p>
-<h4 id="enfoque-de-la-audiencia" class="anchored"><strong>Enfoque de la audiencia:</strong></h4>
-<ul>
-<li><p><strong>Público general interesado en aprender herramientas digitales</strong>: no se requiere experiencia previa, el curso inicia desde cero.</p></li>
-<li><p><strong>Estudiantes y profesionales de cualquier disciplina</strong> que deseen mejorar sus habilidades en manejo de datos, control de versiones y automatización.</p></li>
-</ul>
-<p><strong>Personas con interés en ciencia de datos, programación o investigación reproducible</strong>, pero que aún no han trabajado con Git, Bash o R.</p>
-<h4 id="patrocinadores" class="anchored">Patrocinadores</h4>
-<ul>
-<li>Escuela Nacional de Estudios Superiores Unidad Juriquilla UNAM (ENES Juriquilla)</li>
-<li>International Society for Computational Biology (ISCB Student Council) - RSG- México</li>
-</ul>
-<h2 id="citar-y-reutilizar-el-material-del-curso" class="anchored" data-anchor-id="información-general">Citar y reutilizar el material del curso</h2>
-<p>Los datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<ul>
-<li>Los participantes pueden traer su propia computadora (opcional). No se requiere experiencia previa: el curso comenzará desde cero.</li>
-</ul>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<table class="table">
-<thead>
-<tr class="header">
-<th>Tema</th>
-<th>Tiempo</th>
-<th>Instructora</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span style="color:#59B4C3"><strong>15 de junio</strong></span></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>🔷 <strong>Sección 1 - (9:00 - 12:30 h)</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Bienvenida (icebreaker) y presentaciones</li>
-</ul></td>
-<td>10 min</td>
-<td>Evelia Coss</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Revisión de instalación de Git, Bash, R y Rstudio / Realizar <a href="https://carpentries.typeform.com/to/wi32rS?slug=2026-06-15-CodeData_Bootcamp_Git_Bash_R">pre-encuesta</a></li>
-</ul></td>
-<td>20 min</td>
-<td>Evelia Coss</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Buenas prácticas en bioinformática</li>
-</ul></td>
-<td>10 min</td>
-<td>Evelia Coss</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Introducción a Bash</li>
-</ul></td>
-<td>10 min</td>
-<td>Evelia Coss</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Mis primeros pasos en Bash</li>
-</ul></td>
-<td>15 min</td>
-<td>Evelia Coss</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li></li>
-</ul></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li></li>
-</ul></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Receso</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Sección 2 - (10:00 - 12:15 h)</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>Clausura</p>
-<p>Realizar <a href="https://carpentries.typeform.com/to/UgVdRQ?slug=2026-06-15-CodeData_Bootcamp_Git_Bash_R">última encuesta</a></p></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div></li>
-</ul>
+<p>Vamos a aprender a transformar datos en visualizaciones que nos ayuden a <strong>explorar, entender y comunicar información</strong>.</p>
 
 
 </section>
@@ -1085,11 +817,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Parte26.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Por llenar</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Presentaciones.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Presentaciones</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
