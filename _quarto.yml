@@ -40,21 +40,21 @@ book:
       - Parte17.qmd # Explorando el historial
       - Parte18.qmd # Restore y reset
       - Parte19.qmd # Ignorar archivos
+    - part: "**Sección 4** - Conexión con Github"
+      chapters:
       - Parte20.qmd # Conexión con Github
       - Parte21.qmd # Trabajando con colaboradores
       - Parte22.qmd # Resolviendo conflictos
       - Parte23.qmd # Trabajando con ramas
       - Parte24.qmd # Conexión RStudio con Git 
       - Parte25.qmd # Resumen y practica final
-    - part: "**Sección 4** - x"
-      chapters:  
-        - Parte26.qmd 
     - part: "**Sección 5** - Introducción a R y RStudio"
       chapters:  
       - Parte26.qmd   
-    - part: "**Sección 6** - "
+    - part: "**Sección 6** - Gráficos con ggplot2 "
       chapters:  
       - Parte26.qmd 
+    
 
       
   # Information
