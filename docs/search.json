@@ -446,5 +446,12 @@
     "title": "32  La Gramática de los Gráficos (GG)",
     "section": "32.4 Referencias",
     "text": "32.4 Referencias\n\nMás información en en el Workshop 3: Introduction to data visualisation with ggplot2\nHaydee tutorial: Seminario de Estadística: Análisis de Datos con R\nTutorial R-Ladies Morelia Reprohack 2024"
+  },
+  {
+    "objectID": "Parte32.html#explorando-la-estructura-de-los-datos",
+    "href": "Parte32.html#explorando-la-estructura-de-los-datos",
+    "title": "33  Básicos de la visualización de datos",
+    "section": "33.1 Explorando la estructura de los datos",
+    "text": "33.1 Explorando la estructura de los datos\nUna forma rápida de tener un vistazo a los datos es usar ggpairs() del paquete GGally.\n\n\nCode\nlibrary(GGally)\nggpairs(penguins, aes(colour = species), progress = FALSE) +\n  theme_bw()"
   }
 ]

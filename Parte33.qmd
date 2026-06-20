@@ -1,0 +1,176 @@
+# Construyendo gráficas capa por capa
+
+Una de las ideas más poderosas de `ggplot2` es que las gráficas se construyen agregando capas. Comenzamos con los datos, después indicamos qué variables queremos representar y finalmente elegimos cómo mostrar la información.
+
+Primero cargamos el paquete de `ggplot2`
+
+```{r}
+library(ggplot2)
+```
+
+## Primera capa: los datos
+
+Toda gráfica comienza indicando qué conjunto de datos utilizaremos.
+
+```{r}
+ggplot(data = penguins)
+```
+
+Todavía no aparece ninguna figura, porque aún no hemos especificado qué variables queremos representar.
+
+## Segunda capa: las estéticas
+
+Las estéticas (`aes`) indican qué variables del conjunto de datos estarán asociadas a los ejes, colores, tamaños, etc.
+
+```{r}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep
+  )
+)
+```
+
+Aunque ya definimos los ejes, todavía falta indicar cómo representar los datos.
+
+## Tercera capa: la geometría
+
+Las geometrías (`geom_`) determinan el tipo de gráfico. Para dos variables numéricas, una opción es un diagrama de dispersión (no es una regla).
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep
+  )
+) +
+  geom_point()
+```
+
+Ahora cada observación se representa mediante un punto.
+
+## Cuarta capa: agregar color
+
+Podemos incorporar una variable categórica para distinguir grupos.
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point()
+```
+
+Los colores permiten identificar las diferentes especies de pingüinos.
+
+## Quinta capa: modificar la apariencia
+
+Las capas también permiten cambiar propiedades visuales.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(size = 2, alpha = 0.7)
+```
+
+-   `size` controla el tamaño de los puntos.
+-   `alpha` controla la transparencia.
+
+## Sexta capa: etiquetas
+
+Una gráfica debe ser fácil de interpretar. Podemos añadir títulos y etiquetas a los ejes.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(size = 2, alpha = 0.7) +
+  labs(
+    title = "Medidas del pico de los pingüinos",
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)",
+    color = "Especie"
+  )
+```
+
+## Séptima capa: temas
+
+Finalmente, podemos modificar la apariencia general de la figura.
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(size = 2, alpha = 0.7) +
+  labs(
+    title = "Medidas del pico de los pingüinos",
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)",
+    color = "Especie"
+  ) +
+  theme_minimal()
+```
+
+::: callout-tip
+## La idea principal
+
+En `ggplot2`, una gráfica se construye sumando capas:
+
+`ggplot(datos)} + aes() + geom_() +otras capas`
+
+Cada nueva capa añade información o modifica la apariencia de la figura, permitiendo construir visualizaciones complejas de manera gradual.
+:::
+
+:::: callout-note
+## Ejercicio
+
+Realiza un plot para tratar de responder a las siguientes preguntas:
+
+¿Existe alguna relación entre la longitud del pico y la longitud de la aleta?
+
+¿La longitud del pico incrementa con la longitud de la aleta?
+
+::: {.callout-tip collapse="true" icon="false"}
+## Solución
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = flipper_len
+  )
+) +
+  geom_point(size = 2, alpha = 0.7) +
+  labs(
+    title = "Relación entre la longitud del pico y aleta de los pingüinos",
+    x = "Longitud del pico (mm)",
+    y = "Longitud de la aleta (mm)"
+  ) +
+  theme_minimal()
+```
+
+:::
+::::

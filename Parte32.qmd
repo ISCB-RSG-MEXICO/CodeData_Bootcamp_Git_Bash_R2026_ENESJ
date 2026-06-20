@@ -14,7 +14,6 @@ Demos un vistazo las variables que contiene.
 str(penguins)
 ```
 
-
 Hay variables tanto de tipo factor como numéricas. Las variables de tipo factor nos pueden servir para encontrar grupos al momento de usar ggplot con las capas de los `aesthetics`.
 
 `ggplot2` necesita que los datos sean de la clase `data.frame` o `tibble`. Vamos a verificar la clase que tiene la base de datos.
@@ -23,20 +22,17 @@ Hay variables tanto de tipo factor como numéricas. Las variables de tipo factor
 class(penguins)
 ```
 
-
 Como ya mencionamos, los plots nos pueden ayudar para responder algunas preguntas, por ejemplo:
 
-- ¿Existe alguna relación entre la longitud y profundidad de los picos?
+-   ¿Existe alguna relación entre la longitud y profundidad de los picos?
 
-- El tamaño de los picos y alas varían juntos?
+-   El tamaño de los picos y alas varían juntos?
 
-- ¿Cómo se distribuyen estas medidas entre las 3 especies?
+-   ¿Cómo se distribuyen estas medidas entre las 3 especies?
 
 ## Explorando la estructura de los datos
 
-
 Una forma rápida de tener un vistazo a los datos es usar `ggpairs()` del paquete `GGally`.
-
 
 ```{r, warning=FALSE, message=FALSE}
 library(GGally)
