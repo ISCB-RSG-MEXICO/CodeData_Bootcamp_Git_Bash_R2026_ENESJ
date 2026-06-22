@@ -8,11 +8,11 @@ Las estéticas establecen una correspondencia entre las variables del conjunto d
 
 Las más comunes son:
 
--   `x` y `y`: posición en los ejes.
--   `color`: color de puntos o líneas.
--   `shape`: forma de los puntos.
--   `size`: tamaño.
--   `alpha`: transparencia.
+- `x` y `y`: posición en los ejes.
+- `color`: color de puntos o líneas.
+- `shape`: forma de los puntos.
+- `size`: tamaño.
+- `alpha`: transparencia.
 
 Por ejemplo:
 
@@ -44,10 +44,10 @@ En este caso, el color está determinado por la variable `species`.
 
 El color es una de las estéticas más útiles en una gráfica. Nos permite:
 
--   distinguir grupos;
--   representar valores numéricos;
--   resaltar patrones;
--   mejorar la comunicación visual.
+- distinguir grupos;
+- representar valores numéricos;
+- resaltar patrones;
+- mejorar la comunicación visual.
 
 En `ggplot2`, el color puede usarse de dos formas principales:
 
@@ -339,8 +339,8 @@ La `c` viene de *continuous*, porque `body_mass` es una variable numérica.
 ::: callout-tip
 Como regla práctica:
 
--   usa `scale_color_viridis_d()` para grupos o categorías;
--   usa `scale_color_viridis_c()` para variables numéricas continuas.
+- usa `scale_color_viridis_d()` para grupos o categorías;
+- usa `scale_color_viridis_c()` para variables numéricas continuas.
 :::
 
 ### Escala de grises
@@ -397,7 +397,7 @@ p_penguins +
 El color puede usarse para comunicar distintos tipos de información:
 
 | Objetivo | Función útil |
-|------------------------------------|------------------------------------|
+|----|----|
 | Asignar color por grupo | `aes(color = variable)` |
 | Usar un color fijo | `geom_point(color = "steelblue")` |
 | Elegir colores manualmente | `scale_color_manual()` |
@@ -453,8 +453,7 @@ cvdPlot(pp2_viridis)
 
 La salida muestra varias versiones de la gráfica. Esto nos ayuda a revisar si los grupos siguen siendo distinguibles aun cuando cambia la percepción del color.
 
-
-::: {.callout-note}
+::: callout-note
 ### Nota
 
 Las paletas `viridis` suelen ser una buena opción porque fueron diseñadas para ser perceptualmente uniformes y más accesibles para personas con daltonismo.
@@ -466,11 +465,12 @@ Veamos solo un ejemplo de una paleta no accesible.
 p_penguins
 ```
 
-Usando `cvdPlot` vemos que estos plots no son visualemente accesibles. 
+Usando `cvdPlot` vemos que estos plots no son visualemente accesibles.
 
 ```{r, warning=FALSE, message=FALSE}
 cvdPlot(p_penguins)
 ```
+
 ------------------------------------------------------------------------
 
 ## Forma de los puntos
@@ -503,7 +503,6 @@ ggplot(
 ) +
   geom_point()
 ```
-
 
 Es el equivalente al parámetro `pch` de los gráficos base de R. Para cambiarlo, usamos `shape = n`, donde `n` es un número entre 0 y 25. Algunos de los símbolos disponibles se muestran a continuación.
 
@@ -598,7 +597,6 @@ generateRLineTypes<-function(){
 generateRLineTypes()
 ```
 
-
 ------------------------------------------------------------------------
 
 ## Combinando varias estéticas
@@ -661,8 +659,8 @@ ggplot(
 
 Aquí:
 
--   `limits` controla el intervalo mostrado.
--   `breaks` determina las marcas del eje.
+- `limits` controla el intervalo mostrado.
+- `breaks` determina las marcas del eje.
 
 ### Modificando ambos ejes
 

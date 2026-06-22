@@ -651,6 +651,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Estéticas y escalas en ggplot2</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte35.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Estéticas globales y locales</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte36.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temas en <code>ggplot2</code></span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte37.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Facetas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte38.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Algunas geometrías básicas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Parte39.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Ejercicios finales</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -810,8 +840,8 @@ Esto es útil para inspeccionar rápidamente datos sin necesidad de abrir todo e
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>(<span class="at">rownames =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-c5a9bac83109bfb928cc" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-c5a9bac83109bfb928cc">{"x":{"filter":"none","vertical":false,"data":[["Adelie","Adelie","Adelie","Adelie","Adelie","Adelie"],["Torgersen","Torgersen","Torgersen","Torgersen","Torgersen","Torgersen"],[39.1,39.5,40.3,null,36.7,39.3],[18.7,17.4,18,null,19.3,20.6],[181,186,195,null,193,190],[3750,3800,3250,null,3450,3650],["male","female","female",null,"female","male"],[2007,2007,2007,2007,2007,2007]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>species<\/th>\n      <th>island<\/th>\n      <th>bill_length_mm<\/th>\n      <th>bill_depth_mm<\/th>\n      <th>flipper_length_mm<\/th>\n      <th>body_mass_g<\/th>\n      <th>sex<\/th>\n      <th>year<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3,4,5,7]},{"name":"species","targets":0},{"name":"island","targets":1},{"name":"bill_length_mm","targets":2},{"name":"bill_depth_mm","targets":3},{"name":"flipper_length_mm","targets":4},{"name":"body_mass_g","targets":5},{"name":"sex","targets":6},{"name":"year","targets":7}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ee8125f1ee934d80a4c9" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ee8125f1ee934d80a4c9">{"x":{"filter":"none","vertical":false,"data":[["Adelie","Adelie","Adelie","Adelie","Adelie","Adelie"],["Torgersen","Torgersen","Torgersen","Torgersen","Torgersen","Torgersen"],[39.1,39.5,40.3,null,36.7,39.3],[18.7,17.4,18,null,19.3,20.6],[181,186,195,null,193,190],[3750,3800,3250,null,3450,3650],["male","female","female",null,"female","male"],[2007,2007,2007,2007,2007,2007]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>species<\/th>\n      <th>island<\/th>\n      <th>bill_length_mm<\/th>\n      <th>bill_depth_mm<\/th>\n      <th>flipper_length_mm<\/th>\n      <th>body_mass_g<\/th>\n      <th>sex<\/th>\n      <th>year<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[2,3,4,5,7]},{"name":"species","targets":0},{"name":"island","targets":1},{"name":"bill_length_mm","targets":2},{"name":"bill_depth_mm","targets":3},{"name":"flipper_length_mm","targets":4},{"name":"body_mass_g","targets":5},{"name":"sex","targets":6},{"name":"year","targets":7}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
@@ -861,8 +891,8 @@ Esto es útil para inspeccionar rápidamente datos sin necesidad de abrir todo e
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>(<span class="at">rownames =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-5bc1a7463aaf5b21c3cf" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5bc1a7463aaf5b21c3cf">{"x":{"filter":"none","vertical":false,"data":[["PAL0708","PAL0708","PAL0708","PAL0708"],[1,2,3,4],["Adelie Penguin (Pygoscelis adeliae)","Adelie Penguin (Pygoscelis adeliae)","Adelie Penguin (Pygoscelis adeliae)","Adelie Penguin (Pygoscelis adeliae)"],["Anvers","Anvers","Anvers","Anvers"],["Torgersen","Torgersen","Torgersen","Torgersen"],["Adult, 1 Egg Stage","Adult, 1 Egg Stage","Adult, 1 Egg Stage","Adult, 1 Egg Stage"],["N1A1","N1A2","N2A1","N2A2"],["Yes","Yes","Yes","Yes"],["2007-11-11","2007-11-11","2007-11-16","2007-11-16"],[39.1,39.5,40.3,null],[18.7,17.4,18,null],[181,186,195,null],[3750,3800,3250,null],["MALE","FEMALE","FEMALE",null],[null,8.94956,8.368209999999999,null],[null,-24.69454,-25.33302,null],["Not enough blood for isotopes.",null,null,"Adult not sampled."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>studyName<\/th>\n      <th>Sample Number<\/th>\n      <th>Species<\/th>\n      <th>Region<\/th>\n      <th>Island<\/th>\n      <th>Stage<\/th>\n      <th>Individual ID<\/th>\n      <th>Clutch Completion<\/th>\n      <th>Date Egg<\/th>\n      <th>Culmen Length (mm)<\/th>\n      <th>Culmen Depth (mm)<\/th>\n      <th>Flipper Length (mm)<\/th>\n      <th>Body Mass (g)<\/th>\n      <th>Sex<\/th>\n      <th>Delta 15 N (o/oo)<\/th>\n      <th>Delta 13 C (o/oo)<\/th>\n      <th>Comments<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,9,10,11,12,14,15]},{"name":"studyName","targets":0},{"name":"Sample Number","targets":1},{"name":"Species","targets":2},{"name":"Region","targets":3},{"name":"Island","targets":4},{"name":"Stage","targets":5},{"name":"Individual ID","targets":6},{"name":"Clutch Completion","targets":7},{"name":"Date Egg","targets":8},{"name":"Culmen Length (mm)","targets":9},{"name":"Culmen Depth (mm)","targets":10},{"name":"Flipper Length (mm)","targets":11},{"name":"Body Mass (g)","targets":12},{"name":"Sex","targets":13},{"name":"Delta 15 N (o/oo)","targets":14},{"name":"Delta 13 C (o/oo)","targets":15},{"name":"Comments","targets":16}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-dba736598423667ac745" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-dba736598423667ac745">{"x":{"filter":"none","vertical":false,"data":[["PAL0708","PAL0708","PAL0708","PAL0708"],[1,2,3,4],["Adelie Penguin (Pygoscelis adeliae)","Adelie Penguin (Pygoscelis adeliae)","Adelie Penguin (Pygoscelis adeliae)","Adelie Penguin (Pygoscelis adeliae)"],["Anvers","Anvers","Anvers","Anvers"],["Torgersen","Torgersen","Torgersen","Torgersen"],["Adult, 1 Egg Stage","Adult, 1 Egg Stage","Adult, 1 Egg Stage","Adult, 1 Egg Stage"],["N1A1","N1A2","N2A1","N2A2"],["Yes","Yes","Yes","Yes"],["2007-11-11","2007-11-11","2007-11-16","2007-11-16"],[39.1,39.5,40.3,null],[18.7,17.4,18,null],[181,186,195,null],[3750,3800,3250,null],["MALE","FEMALE","FEMALE",null],[null,8.94956,8.368209999999999,null],[null,-24.69454,-25.33302,null],["Not enough blood for isotopes.",null,null,"Adult not sampled."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>studyName<\/th>\n      <th>Sample Number<\/th>\n      <th>Species<\/th>\n      <th>Region<\/th>\n      <th>Island<\/th>\n      <th>Stage<\/th>\n      <th>Individual ID<\/th>\n      <th>Clutch Completion<\/th>\n      <th>Date Egg<\/th>\n      <th>Culmen Length (mm)<\/th>\n      <th>Culmen Depth (mm)<\/th>\n      <th>Flipper Length (mm)<\/th>\n      <th>Body Mass (g)<\/th>\n      <th>Sex<\/th>\n      <th>Delta 15 N (o/oo)<\/th>\n      <th>Delta 13 C (o/oo)<\/th>\n      <th>Comments<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,9,10,11,12,14,15]},{"name":"studyName","targets":0},{"name":"Sample Number","targets":1},{"name":"Species","targets":2},{"name":"Region","targets":3},{"name":"Island","targets":4},{"name":"Stage","targets":5},{"name":"Individual ID","targets":6},{"name":"Clutch Completion","targets":7},{"name":"Date Egg","targets":8},{"name":"Culmen Length (mm)","targets":9},{"name":"Culmen Depth (mm)","targets":10},{"name":"Flipper Length (mm)","targets":11},{"name":"Body Mass (g)","targets":12},{"name":"Sex","targets":13},{"name":"Delta 15 N (o/oo)","targets":14},{"name":"Delta 13 C (o/oo)","targets":15},{"name":"Comments","targets":16}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
