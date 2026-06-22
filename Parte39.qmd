@@ -1,26 +1,24 @@
 # Ejercicios finales
 
+:::: callout-note
+## Ejercicio 1: ¿Existe dimorfismo sexual en los pingüinos?
 
-::: callout-note
-## Ejercicio 1: ¿Existe dimorfismo sexual en los pingüinos? 
+Los machos y las hembras de muchas especies presentan diferencias de tamaño. Usando el conjunto de datos `penguins`, investiga si el peso corporal de los pingüinos parece diferir entre sexos y especies. Construye una gráfica que cumpla con lo siguiente:
 
-Los machos y las hembras de muchas especies presentan diferencias de tamaño. Usando el conjunto de datos `penguins`, investiga si el peso corporal de los pingüinos parece diferir entre sexos y especies. Construye una gráfica que cumpla con lo siguiente: 
+1.  Compara la variable `body_mass` entre machos y hembras.
+2.  Distingue las especies mediante color.
+3.  Elige una geometría apropiada para comparar distribuciones.
+4.  Separa la gráfica por isla usando facetas.
+5.  Personaliza el título, etiquetas y tema.
+6.  A partir de la gráfica, responde:
 
-1. Compara la variable `body_mass` entre machos y hembras. 
-2. Distingue las especies mediante color. 
-3. Elige una geometría apropiada para comparar distribuciones. 
-4. Separa la gráfica por isla usando facetas. 
-5. Personaliza el título, etiquetas y tema. 
-6. A partir de la gráfica, responde: 
-  - ¿Los machos parecen pesar más que las hembras? 
-  - ¿La diferencia es similar en las tres especies?
- 
- 
- 
+-   ¿Los machos parecen pesar más que las hembras?
+-   ¿La diferencia es similar en las tres especies?
+
 ::: {.callout-tip collapse="true" icon="false"}
 ## Solución
-  
-```{r, warning=FALSE, message=FALSE} 
+
+```{r, warning=FALSE, message=FALSE}
 library(ggplot2)
 ggplot( penguins, aes( x = sex, y = body_mass, fill = species ) ) + 
   geom_boxplot() + 
@@ -30,15 +28,13 @@ ggplot( penguins, aes( x = sex, y = body_mass, fill = species ) ) +
         y = "Peso corporal (g)", 
         fill = "Especie" ) + 
   theme_minimal() 
-``` 
+```
 
 En general, los machos presentan un mayor peso corporal que las hembras. Además, existen diferencias entre especies y entre islas.
 :::
-:::
+::::
 
-
-
-::: callout-note
+:::: callout-note
 ## Ejercicio 2:¿Los diamantes de mejor calidad son más caros?
 
 El conjunto de datos `diamonds`, incluido en `ggplot2`, contiene información sobre más de 50,000 diamantes.
@@ -47,18 +43,18 @@ Construye una gráfica que permita explorar la relación entre la calidad del co
 
 La gráfica debe:
 
-1. Comparar la distribución de precios entre las categorías de `cut`.
-2. Utilizar una geometría adecuada para comparar distribuciones.
-3. Mostrar también las observaciones individuales.
-4. Personalizar el título y las etiquetas de los ejes.
-5. Elegir un tema diferente al predeterminado.
-6. Responder:
-   - ¿Los diamantes con mejor corte son necesariamente más caros?
-   - ¿Existe mucha variabilidad dentro de cada categoría?
- 
+1.  Comparar la distribución de precios entre las categorías de `cut`.
+2.  Utilizar una geometría adecuada para comparar distribuciones.
+3.  Mostrar también las observaciones individuales.
+4.  Personalizar el título y las etiquetas de los ejes.
+5.  Elegir un tema diferente al predeterminado.
+6.  Responder:
+    -   ¿Los diamantes con mejor corte son necesariamente más caros?
+    -   ¿Existe mucha variabilidad dentro de cada categoría?
+
 ::: {.callout-tip collapse="true" icon="false"}
 ## Solución
-  
+
 ```{r, warning=FALSE, message=FALSE}
 ggplot(
   diamonds,
@@ -85,7 +81,5 @@ ggplot(
 ```
 
 La gráfica muestra una gran variabilidad en los precios. Aunque las categorías de mejor calidad tienden a tener precios altos, existe un traslape considerable entre las distribuciones.
-
-  
 :::
-:::
+::::
