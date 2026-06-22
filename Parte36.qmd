@@ -1,0 +1,178 @@
+# Temas en `ggplot2`
+
+Además de modificar las estéticas de los datos, como `color`, `shape`, `size` o `alpha`, también podemos modificar la apariencia general de la gráfica. Para eso usamos los **temas**.
+
+Un tema controla elementos visuales que no dependen directamente de los datos, por ejemplo:
+
+- el color del fondo,
+- la cuadrícula,
+- los ejes,
+- el tamaño y estilo de la letra,
+- la posición de la leyenda,
+- los márgenes.
+
+Primero guardamos una gráfica base.
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+
+p <- ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(size = 2, alpha = 0.7) +
+  labs(
+    title = "Relación entre longitud y profundidad del pico",
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)",
+    color = "Especie"
+  )
+```
+
+## Temas predefinidos
+
+`ggplot2` tiene varios temas predefinidos. Todos contienen la misma información, pero cambia la presentación visual.
+
+```{r, warning=FALSE, message=FALSE}
+p + theme_gray()
+p + theme_light()
+p + theme_dark()
+p + theme_minimal()
+p + theme_void()
+p + theme_test()
+```
+
+Por ejemplo, `theme_gray()` es el tema por defecto de `ggplot2`, mientras que `theme_minimal()` elimina varios elementos visuales para dejar una gráfica más limpia. En cambio, `theme_void()` elimina casi todos los elementos del fondo, incluyendo ejes y cuadrícula.
+
+::: {.callout-note}
+## Nota
+
+Los temas no cambian los datos ni la relación entre variables. Sólo modifican la apariencia general de la gráfica.
+:::
+
+## Modificar elementos del tema
+
+También podemos modificar elementos específicos con `theme()`. Por ejemplo, podemos cambiar el estilo del título, los títulos de los ejes y el texto de los ejes.
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(
+      color = "red",
+      size = 12,
+      face = "bold.italic"
+    ),
+    axis.title.x = element_text(
+      color = "blue",
+      size = 10,
+      face = "bold"
+    ),
+    axis.title.y = element_text(
+      color = "#993333",
+      size = 10,
+      face = "italic"
+    ),
+    axis.text = element_text(
+      color = "slateblue2",
+      size = 10
+    )
+  )
+```
+
+En este ejemplo usamos:
+
+- `plot.title`: para modificar el título de la gráfica.
+- `axis.title.x`: para modificar el título del eje x.
+- `axis.title.y`: para modificar el título del eje y.
+- `axis.text`: para modificar los valores que aparecen sobre los ejes.
+
+La función `element_text()` permite modificar propiedades del texto, como el color, tamaño y estilo.
+
+## Combinar temas predefinidos con modificaciones propias
+
+También podemos partir de un tema predefinido y después modificar algunos elementos particulares.
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  theme_dark() +
+  theme(
+    plot.title = element_text(
+      color = "red",
+      size = 12,
+      face = "bold.italic"
+    ),
+    axis.title.x = element_text(
+      color = "blue",
+      size = 10,
+      face = "bold"
+    ),
+    axis.title.y = element_text(
+      color = "#993333",
+      size = 10,
+      face = "italic"
+    ),
+    axis.text = element_text(
+      color = "slateblue2",
+      size = 10
+    )
+  )
+```
+
+Aquí primero aplicamos `theme_dark()` y después cambiamos algunos elementos del texto. Esto muestra que los temas se pueden usar como punto de partida y luego ajustar según nuestras necesidades.
+
+## Elementos de un tema
+
+Una infografía que les puede ayudar a personalizar sus plots.
+
+
+![ggplot2 Theme Elements Reference Sheet](https://isabella-b.com/blog/ggplot2-theme-elements-reference/ggplot2-theme-elements-reference-v2_hu8994090e1960a0a71878a3756da20076_580819_2000x2000_fit_lanczos_2.png)
+
+
+## Temas propios
+
+Hasta ahora hemos utilizado los temas predefinidos de `ggplot2`, como `theme_light()` o `theme_minimal()`. Sin embargo, también podemos construir nuestro propio tema combinando un tema existente con modificaciones realizadas mediante `theme()`.
+
+Por ejemplo, podemos definir un tema personalizado para todas nuestras gráficas:
+
+```{r, warning=FALSE, message=FALSE}
+tema_pingüinos <- theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    axis.title = element_text(size = 12),
+    legend.position = "bottom",
+    panel.grid.minor = element_blank()
+  )
+```
+
+Ahora podemos reutilizar este tema en cualquier figura:
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(alpha = 0.7) +
+  labs(
+    title = "Relación entre longitud y profundidad del pico",
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)"
+  ) +
+  tema_pingüinos
+```
+
+De esta manera, podemos mantener una apariencia consistente en todas nuestras visualizaciones sin tener que repetir las mismas modificaciones en cada gráfico.
+
+::: {.callout-tip}
+## Idea importante
+
+Un tema personalizado es simplemente un objeto que almacena modificaciones de estilo. Esto es especialmente útil cuando queremos que todas las figuras de un proyecto, artículo o presentación compartan una apariencia uniforme.
+:::

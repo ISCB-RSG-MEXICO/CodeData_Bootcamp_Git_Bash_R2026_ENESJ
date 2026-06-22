@@ -171,6 +171,5 @@ ggplot(
   ) +
   theme_minimal()
 ```
-
 :::
 ::::

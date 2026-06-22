@@ -1,0 +1,131 @@
+# Estéticas globales y locales
+
+Hasta ahora hemos modificado diferentes estéticas como `shape`, `size` y `alpha`. Estas estéticas pueden especificarse dentro de la llamada a `ggplot()` o dentro de una capa particular, como `geom_point()`.
+
+La diferencia radica en el alcance de las estéticas:
+
+- Las estéticas definidas en `ggplot()` son **globales** y se heredan por todas las capas.
+- Las estéticas definidas dentro de un `geom()` son **locales** y sólo afectan a esa capa.
+
+## Estéticas globales
+
+Estas son como las que ya hemos usado: las variables `bill_len`, `bill_dep` y `species` se definen dentro de `ggplot()`. Por lo tanto, cualquier capa añadida posteriormente heredará estas estéticas.
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(size = 2) +
+  labs(title = "Color heredado por todas las capas")
+```
+
+## Estéticas locales
+
+También podemos especificar las estéticas dentro de una capa. En este caso, sólo esa capa utilizará dichas estéticas.
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(data = penguins) +
+  geom_point(
+    aes(
+      x = bill_len,
+      y = bill_dep,
+      color = species
+    ),
+    size = 2
+  ) +
+  labs(title = "Las estéticas se definen dentro de geom_point()")
+```
+
+En ambos casos obtenemos la misma figura. La diferencia se hace evidente cuando utilizamos varias capas.
+
+## Herencia de estéticas
+
+Retomemos el caso en el que añadimos una línea de tendencia además de los puntos.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(se = FALSE)
+```
+
+Como `color = species` fue definido de forma global, tanto los puntos como las líneas se colorean según la especie.
+
+Si queremos que sólo los puntos tengan colores diferentes y que la línea de ajuste sea única, podemos definir el color únicamente en `geom_point()`.
+
+```{r}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep
+  )
+) +
+  geom_point(
+    aes(color = species),
+    alpha = 0.7
+  ) +
+  geom_smooth(
+    color = "black",
+    se = FALSE
+  )
+```
+
+Ahora el color depende de la especie únicamente para los puntos, mientras que la línea de tendencia se calcula usando todos los datos y aparece en negro.
+
+::: {.callout-tip}
+## Regla general
+
+- Colocar dentro de `ggplot()` las estéticas que serán compartidas por varias capas.
+- Colocar dentro de cada `geom()` las estéticas que sólo deban afectar a esa capa.
+
+Esta forma de trabajar permite construir gráficos complejos de manera modular y es una de las principales ventajas de **ggplot2**.
+:::
+
+
+Podemos colocar también el estético de `shape` dentro de las geometrías y asociarlo a una variable.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep
+  )
+) +
+  geom_point(
+    aes(shape = species),
+    alpha = 0.7
+  )
+```
+
+O incluso usar el tamaño y alfa para variables continuas.
+
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  data = penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep
+  )
+) +
+  geom_point(
+    aes(size = body_mass, alpha = flipper_len)
+  )+
+  labs(title = "Tamaño y alpha usando variables continuas")
+```
+

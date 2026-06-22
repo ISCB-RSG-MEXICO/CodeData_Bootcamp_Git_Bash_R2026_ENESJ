@@ -1,0 +1,99 @@
+# Facetas
+
+En ocasiones es útil separar una gráfica en varios paneles para comparar grupos de datos. En `ggplot2`, esto se logra mediante las funciones `facet_wrap()` y `facet_grid()`, las cuales generan una colección de gráficas con la misma estructura, pero para diferentes subconjuntos de los datos.
+
+Reutilicemos nuestro plot base:
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+
+p <- ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_point(alpha = 0.7) +
+  labs(
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)",
+    color = "Especie"
+  ) +
+  theme_minimal()
+
+p
+```
+
+## `facet_wrap()`
+
+La función `facet_wrap()` divide la gráfica según una sola variable categórica y organiza automáticamente los paneles en filas y columnas.
+
+Por ejemplo, podemos crear una gráfica para cada isla:
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  facet_wrap(~ island)
+```
+
+Cada panel contiene únicamente los pingüinos correspondientes a una isla.
+
+También podemos controlar el número de columnas:
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  facet_wrap(~ species, ncol = 1)
+```
+
+En este caso obtenemos una gráfica para cada especie, acomodadas en una sola columna.
+
+::: {.callout-note}
+## Nota
+
+`facet_wrap()` es útil cuando queremos dividir los datos según una sola variable.
+:::
+
+## `facet_grid()`
+
+La función `facet_grid()` permite organizar los paneles en una cuadrícula determinada por dos variables. Una variable define las filas y la otra las columnas.
+
+Por ejemplo, podemos separar por sexo y por isla:
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  facet_grid(sex ~ island)
+```
+
+Aquí:
+
+- las filas corresponden al sexo;
+- las columnas corresponden a la isla.
+
+Cada panel muestra únicamente las observaciones que pertenecen a esa combinación de categorías.
+
+También es posible utilizar una sola dimensión y dejar que la escala del eje $y$ cambie entre las facetas:
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  facet_grid(~ island, scales = "free")
+```
+
+lo cual produce una fila con una columna por isla.
+
+O bien,
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  facet_grid(species ~ .)
+```
+
+para obtener una columna con una fila por especie.
+
+::: {.callout-tip}
+## ¿Cuándo usar cada una?
+
+- `facet_wrap()` se utiliza cuando queremos dividir los datos según una sola variable y dejar que `ggplot2` organice automáticamente los paneles.
+
+- `facet_grid()` es útil cuando queremos comparar simultáneamente dos variables categóricas, una en las filas y otra en las columnas.
+:::

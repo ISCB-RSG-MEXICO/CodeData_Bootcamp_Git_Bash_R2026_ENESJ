@@ -35,6 +35,7 @@ Como ya mencionamos, los plots nos pueden ayudar para responder algunas pregunta
 Una forma rápida de tener un vistazo a los datos es usar `ggpairs()` del paquete `GGally`.
 
 ```{r, warning=FALSE, message=FALSE}
+#install.packages("GGally")
 library(GGally)
 ggpairs(penguins, aes(colour = species), progress = FALSE) +
   theme_bw()

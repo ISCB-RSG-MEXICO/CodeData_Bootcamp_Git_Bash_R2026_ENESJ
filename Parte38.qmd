@@ -1,0 +1,183 @@
+# Algunas geometrías básicas
+
+Una de las principales ventajas de `ggplot2` es que podemos representar los mismos datos de distintas maneras simplemente cambiando la geometría (`geom`). Cada geometría está diseñada para resaltar diferentes características de los datos.
+
+Primero cargamos nuestro gráfica base:
+
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+
+
+p <- ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  theme_minimal() +
+  labs(
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)",
+    color = "Especie"
+  )
+```
+
+## Gráfica de dispersión
+
+La geometría más común para estudiar la relación entre dos variables numéricas es `geom_point()`.
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  geom_point(alpha = 0.7) +
+  ggtitle("geom_point()")
+```
+
+## Etiquetas de texto
+
+Podemos sustituir los puntos por texto utilizando `geom_text()`. Aquí usamos la especie como etiqueta.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    label = species,
+    color = species
+  )
+) +
+  geom_text() +
+  theme_minimal() +
+  ggtitle("geom_text()")
+```
+
+## Líneas
+
+Si ordenamos las observaciones por longitud del pico, podemos unirlas mediante líneas.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    y = bill_dep,
+    color = species
+  )
+) +
+  geom_line() +
+  theme_minimal() +
+  ggtitle("geom_line()")
+```
+
+::: {.callout-warning}
+Las líneas suelen utilizarse para series de tiempo o datos con un orden natural. En este ejemplo se muestran únicamente para ilustrar la geometría.
+:::
+
+## Curvas suavizadas
+
+Una forma común de visualizar tendencias es mediante `geom_smooth()`.
+
+```{r, warning=FALSE, message=FALSE}
+p +
+  geom_point(alpha = 0.5) +
+  geom_smooth(se = FALSE) +
+  ggtitle("geom_smooth()")
+```
+
+## Histogramas
+
+Para estudiar la distribución de una variable podemos utilizar histogramas.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    fill = species
+  )
+) +
+  geom_histogram(
+    bins = 30,
+    alpha = 0.7
+  ) +
+  theme_minimal() +
+  ggtitle("geom_histogram()")
+```
+
+## Diagramas de caja
+
+Los diagramas de caja resumen la distribución de una variable y facilitan la comparación entre grupos.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = species,
+    y = bill_len,
+    fill = species
+  )
+) +
+  geom_boxplot() +
+  theme_minimal() +
+  ggtitle("geom_boxplot()")
+```
+
+## Diagramas de violín
+
+Una alternativa al diagrama de caja es el diagrama de violín, que muestra la forma de la distribución.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = species,
+    y = bill_len,
+    fill = species
+  )
+) +
+  geom_violin() +
+  theme_minimal() +
+  ggtitle("geom_violin()")
+```
+
+## Barras
+
+También podemos representar el número de observaciones de cada especie.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = species,
+    fill = species
+  )
+) +
+  geom_bar() +
+  theme_minimal() +
+  ggtitle("geom_bar()")
+```
+
+## Densidades
+
+Las curvas de densidad permiten comparar distribuciones de forma suave.
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(
+  penguins,
+  aes(
+    x = bill_len,
+    fill = species
+  )
+) +
+  geom_density(alpha = 0.4) +
+  theme_minimal() +
+  ggtitle("geom_density()")
+```
+
+::: {.callout-tip}
+## Idea importante
+
+La estructura básica del gráfico permanece igual; únicamente cambia la geometría. Esta filosofía de capas es una de las características fundamentales de `ggplot2`.
+:::

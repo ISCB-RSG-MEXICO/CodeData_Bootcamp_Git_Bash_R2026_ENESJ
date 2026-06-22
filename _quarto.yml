@@ -56,9 +56,13 @@ book:
       - Parte30.qmd # Intro a ggplot
       - Parte31.qmd # La gramatica de los gráficos
       - Parte32.qmd #  Básicos de la visualización de datos
-      - Parte33.qmd # 
-      - Parte34.qmd #
-    
+      - Parte33.qmd # Construyendo gráficas capa por capa
+      - Parte34.qmd # estéticas globales
+      - Parte35.qmd # esteticos locales
+      - Parte36.qmd # Temas
+      - Parte37.qmd # facetas
+      - Parte38.qmd # Geometrías
+      - Parte39.qmd # Ejercicios finales
 
       
   # Information

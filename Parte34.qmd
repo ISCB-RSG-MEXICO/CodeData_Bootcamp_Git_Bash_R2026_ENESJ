@@ -412,9 +412,65 @@ El color puede usarse para comunicar distintos tipos de información:
 Una página que contiene muchas paletas de colores y varias paletas accesibles es la siguietne:
 
 https://r-charts.com/color-palettes/
-
 :::
 
+### Revisar accesibilidad de colores
+
+Como ya mencionamos, además de elegir una paleta agradable, es importante verificar que los colores sean distinguibles para personas con distintas formas de daltonismo. Una forma sencilla de hacerlo es con la función `cvdPlot()`.
+
+La función `cvdPlot()` permite visualizar cómo se vería una gráfica bajo distintas condiciones de deficiencia en la visión del color.
+
+```{r}
+if (!"colorBlindness" %in% installed.packages()) {
+  install.packages("colorBlindness")
+}
+
+library(colorBlindness)
+```
+
+Primero construimos una gráfica usando una paleta accesible, como `viridis`.
+
+```{r, message=FALSE, warning=FALSE}
+pp2_viridis <- p_penguins +
+  scale_color_viridis_d() +
+  labs(
+    title = "Medidas del pico de los pingüinos",
+    subtitle = "Colores por especie usando una paleta accesible",
+    x = "Longitud del pico (mm)",
+    y = "Profundidad del pico (mm)",
+    color = "Especie"
+  ) +
+  theme_minimal()
+
+pp2_viridis
+```
+
+Ahora usamos `cvdPlot()` para simular cómo se vería la misma gráfica para personas con distintos tipos de deficiencia en la visión del color.
+
+```{r, warning=FALSE, message=FALSE}
+cvdPlot(pp2_viridis)
+```
+
+La salida muestra varias versiones de la gráfica. Esto nos ayuda a revisar si los grupos siguen siendo distinguibles aun cuando cambia la percepción del color.
+
+
+::: {.callout-note}
+### Nota
+
+Las paletas `viridis` suelen ser una buena opción porque fueron diseñadas para ser perceptualmente uniformes y más accesibles para personas con daltonismo.
+:::
+
+Veamos solo un ejemplo de una paleta no accesible.
+
+```{r, warning=FALSE, message=FALSE}
+p_penguins
+```
+
+Usando `cvdPlot` vemos que estos plots no son visualemente accesibles. 
+
+```{r, warning=FALSE, message=FALSE}
+cvdPlot(p_penguins)
+```
 ------------------------------------------------------------------------
 
 ## Forma de los puntos
@@ -446,6 +502,27 @@ ggplot(
   )
 ) +
   geom_point()
+```
+
+
+Es el equivalente al parámetro `pch` de los gráficos base de R. Para cambiarlo, usamos `shape = n`, donde `n` es un número entre 0 y 25. Algunos de los símbolos disponibles se muestran a continuación.
+
+```{r c4-3, echo=FALSE}
+#++++++++++++++++++++++++++++++++++++++++++++
+#generate a plot of point shapes which R knows about.
+#++++++++++++++++++++++++++++++++++++++++++++
+generateRPointShapes<-function(){
+  oldPar<-par()
+  par(font=2, mar=c(0.5,0,0,0))
+  y=rev(c(rep(1,6),rep(2,5), rep(3,5), rep(4,5), rep(5,5)))
+  x=c(rep(1:5,5),6)
+  plot(x, y, pch = 0:25, cex=1.5, ylim=c(1,5.5), xlim=c(1,6.5), 
+       axes=FALSE, xlab="", ylab="", bg="blue")
+  text(x, y, labels=0:25, pos=3)
+  par(mar=oldPar$mar,font=oldPar$font )
+}
+generateRPointShapes()
+
 ```
 
 ------------------------------------------------------------------------
@@ -501,6 +578,26 @@ ggplot(
 Valores pequeños producen puntos más transparentes.
 
 La transparencia es útil cuando existen muchos datos y varios puntos se superponen.
+
+## Tipo de línea
+
+`linetype`: cambia el tipo de línea, por ejemplo, de sólida a punteada. Es el equivalente al parámetro `lty` de los gráficos base. Podemos especificar el tipo de línea mediante nombres ("solid", "dashed", "dotted", "dotdash", "longdash", "twodash") o mediante números del 0 al 6.
+
+```{r c4-7, echo=FALSE}
+#Line types
+#++++++++++++++++++++++++++++++++++++++++++++
+generateRLineTypes<-function(){
+  oldPar<-par()
+  par(font=2, mar=c(0,0,0,0))
+  plot(1, pch="", ylim=c(0,6), xlim=c(0,0.7),  axes=FALSE,xlab="", ylab="")
+  for(i in 0:6) lines(c(0.3,0.7), c(i,i), lty=i, lwd=3)
+  text(rep(0.1,6), 0:6, labels=c("0.'blank'", "1.'solid'", "2.'dashed'", "3.'dotted'",
+                                 "4.'dotdash'", "5.'longdash'", "6.'twodash'"))
+  par(mar=oldPar$mar,font=oldPar$font )
+}
+generateRLineTypes()
+```
+
 
 ------------------------------------------------------------------------
 

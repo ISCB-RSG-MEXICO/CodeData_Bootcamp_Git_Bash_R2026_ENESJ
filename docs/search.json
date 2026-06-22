@@ -4,10 +4,7 @@
     "href": "index.html",
     "title": "Code & Data Bootcamp: Git, Bash y R",
     "section": "",
-    "text": "Información general\n\n\nSobre el curso 📌Requisitos previosAgenda 📆\n\n\n\nFechas: 15, 18, 22 y 25 de junio, 2026\nDías: Lunes y jueves\nLugar: ENES Juriquilla-UNAM\nHorario: De 10:00 a 14:00 horas\nDuración: 16 horas, 4 horas por día \nCupo máximo: 50 (30 personas en presencial y 20 en línea)\nIdioma: Español\nNivel: Básico \nModalidad: Híbrido\nSobre el curso: Curso extracurricular interno en la ENES Juriquilla.\n\n\nInstructoras:\n\nDra. Evelia Lorena Coss-Navarrete - Profesora de asignatura de la ENES Unidad Juriquilla. Pagina web\nDra. Adriana Haydeé Contreras Peruyero - Profesor Asociado C TC de la ENES Unidad Juriquilla. Página web\n\nCurso registrado en The Carpentries.\nLas instructoras estan certificados por The Carpentries.\nAyudantes, miembros del RSG-México:\n\nMayela Guadalupe Fosado Mendoza, estudiante de licenciatura en Microbiología, UAQ (maye.fosado@gmail.com) (Ayudante presencial). \nEmilio Ortiz Avila, estudiante de licenciatura en Microbiología, UAQ (aeortiz06@gmail.com ) (Ayudante presencial). \nJohanna Castelán Camarillo, maestría en Biotecnología, Universidad Popular Autónoma del Estado de Puebla (johan.ccas02@gmail.com ) (Ayudante virtual)\nMariana Devon Lopez, egresada de la maestría en la Escuela de Salud pública de méxico (mariana.devon@icloud.com) (Ayudante virtual)\n\nResumen:\nEste curso intensivo ofrece una introducción práctica a tres herramientas fundamentales para la ciencia de datos y el desarrollo reproducible: Git para control de versiones, Bash para automatización en la terminal y R para análisis estadístico y visualización. No se requiere experiencia previa: comenzaremos desde cero y avanzaremos paso a paso, combinando teoría y práctica en un entorno accesible.\nEnfoque de la audiencia:\n\nPúblico general interesado en aprender herramientas digitales: no se requiere experiencia previa, el curso inicia desde cero.\nEstudiantes y profesionales de cualquier disciplina que deseen mejorar sus habilidades en manejo de datos, control de versiones y automatización.\n\nPersonas con interés en ciencia de datos, programación o investigación reproducible, pero que aún no han trabajado con Git, Bash o R.\nPatrocinadores\n\nEscuela Nacional de Estudios Superiores Unidad Juriquilla UNAM (ENES Juriquilla)\nInternational Society for Computational Biology (ISCB Student Council) - RSG- México\n\nCitar y reutilizar el material del curso\nLos datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).\n\n\n\nLos participantes pueden traer su propia computadora (opcional). No se requiere experiencia previa: el curso comenzará desde cero.\n\n\n\n\n\n\nTema\nTiempo\nInstructora\n\n\n\n\n15 de junio\n\n\n\n\n🔷 Sección 1 - (9:00 - 12:30 h)\n\n\n\n\n\nBienvenida (icebreaker) y presentaciones\n\n10 min\nEvelia Coss\n\n\n\nRevisión de instalación de Git, Bash, R y Rstudio / Realizar pre-encuesta\n\n20 min\nEvelia Coss\n\n\n\nBuenas prácticas en bioinformática\n\n10 min\nEvelia Coss\n\n\n\nIntroducción a Bash\n\n10 min\nEvelia Coss\n\n\n\nMis primeros pasos en Bash\n\n15 min\nEvelia Coss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReceso\n\n\n\n\nSección 2 - (10:00 - 12:15 h)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClausura\nRealizar última encuesta",
-    "crumbs": [
-      "Información general"
-    ]
+    "text": "Información general\n\n\nSobre el curso 📌Requisitos previosAgenda 📆\n\n\n\nFechas: 15, 18, 22 y 25 de junio, 2026\nDías: Lunes y jueves\nLugar: ENES Juriquilla-UNAM\nHorario: De 10:00 a 14:00 horas\nDuración: 16 horas, 4 horas por día \nCupo máximo: 50 (30 personas en presencial y 20 en línea)\nIdioma: Español\nNivel: Básico \nModalidad: Híbrido\nSobre el curso: Curso extracurricular interno en la ENES Juriquilla.\n\n\nInstructoras:\n\nDra. Evelia Lorena Coss-Navarrete - Profesora de asignatura de la ENES Unidad Juriquilla. Pagina web\nDra. Adriana Haydeé Contreras Peruyero - Profesor Asociado C TC de la ENES Unidad Juriquilla. Página web\n\nCurso registrado en The Carpentries.\nLas instructoras estan certificados por The Carpentries.\nAyudantes, miembros del RSG-México:\n\nMayela Guadalupe Fosado Mendoza, estudiante de licenciatura en Microbiología, UAQ (maye.fosado@gmail.com) (Ayudante presencial). \nEmilio Ortiz Avila, estudiante de licenciatura en Microbiología, UAQ (aeortiz06@gmail.com ) (Ayudante presencial). \nJohanna Castelán Camarillo, maestría en Biotecnología, Universidad Popular Autónoma del Estado de Puebla (johan.ccas02@gmail.com ) (Ayudante virtual)\nMariana Devon Lopez, egresada de la maestría en la Escuela de Salud pública de méxico (mariana.devon@icloud.com) (Ayudante virtual)\n\nResumen:\nEste curso intensivo ofrece una introducción práctica a tres herramientas fundamentales para la ciencia de datos y el desarrollo reproducible: Git para control de versiones, Bash para automatización en la terminal y R para análisis estadístico y visualización. No se requiere experiencia previa: comenzaremos desde cero y avanzaremos paso a paso, combinando teoría y práctica en un entorno accesible.\nEnfoque de la audiencia:\n\nPúblico general interesado en aprender herramientas digitales: no se requiere experiencia previa, el curso inicia desde cero.\nEstudiantes y profesionales de cualquier disciplina que deseen mejorar sus habilidades en manejo de datos, control de versiones y automatización.\n\nPersonas con interés en ciencia de datos, programación o investigación reproducible, pero que aún no han trabajado con Git, Bash o R.\nPatrocinadores\n\nEscuela Nacional de Estudios Superiores Unidad Juriquilla UNAM (ENES Juriquilla)\nInternational Society for Computational Biology (ISCB Student Council) - RSG- México\n\nCitar y reutilizar el material del curso\nLos datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).\n\n\n\nLos participantes pueden traer su propia computadora (opcional). No se requiere experiencia previa: el curso comenzará desde cero.\n\n\n\n\n\n\nTema\nTiempo\nInstructora\n\n\n\n\n15 de junio\n\n\n\n\n🔷 Sección 1 - (9:00 - 12:30 h)\n\n\n\n\n\nBienvenida (icebreaker) y presentaciones\n\n10 min\nEvelia Coss\n\n\n\nRevisión de instalación de Git, Bash, R y Rstudio / Realizar pre-encuesta\n\n20 min\nEvelia Coss\n\n\n\nBuenas prácticas en bioinformática\n\n10 min\nEvelia Coss\n\n\n\nIntroducción a Bash\n\n10 min\nEvelia Coss\n\n\n\nMis primeros pasos en Bash\n\n15 min\nEvelia Coss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReceso\n\n\n\n\nSección 2 - (10:00 - 12:15 h)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClausura\nRealizar última encuesta"
   },
   {
     "objectID": "install_B.html",
@@ -1268,66 +1265,42 @@
     "href": "Parte33.html#segunda-capa-las-estéticas",
     "title": "34  Construyendo gráficas capa por capa",
     "section": "34.2 Segunda capa: las estéticas",
-    "text": "34.2 Segunda capa: las estéticas\nLas estéticas (aes) indican qué variables del conjunto de datos estarán asociadas a los ejes, colores, tamaños, etc.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n)\n\n\n\n\n\n\n\n\n\nAunque ya definimos los ejes, todavía falta indicar cómo representar los datos.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Construyendo gráficas capa por capa</span>"
-    ]
+    "text": "34.2 Segunda capa: las estéticas\nLas estéticas (aes) indican qué variables del conjunto de datos estarán asociadas a los ejes, colores, tamaños, etc.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n)\n\n\n\n\n\nAunque ya definimos los ejes, todavía falta indicar cómo representar los datos."
   },
   {
     "objectID": "Parte33.html#tercera-capa-la-geometría",
     "href": "Parte33.html#tercera-capa-la-geometría",
     "title": "34  Construyendo gráficas capa por capa",
     "section": "34.3 Tercera capa: la geometría",
-    "text": "34.3 Tercera capa: la geometría\nLas geometrías (geom_) determinan el tipo de gráfico. Para dos variables numéricas, una opción es un diagrama de dispersión (no es una regla).\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point()\n\n\n\n\n\n\n\n\n\nAhora cada observación se representa mediante un punto.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Construyendo gráficas capa por capa</span>"
-    ]
+    "text": "34.3 Tercera capa: la geometría\nLas geometrías (geom_) determinan el tipo de gráfico. Para dos variables numéricas, una opción es un diagrama de dispersión (no es una regla).\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point()\n\n\n\n\n\nAhora cada observación se representa mediante un punto."
   },
   {
     "objectID": "Parte33.html#cuarta-capa-agregar-color",
     "href": "Parte33.html#cuarta-capa-agregar-color",
     "title": "34  Construyendo gráficas capa por capa",
     "section": "34.4 Cuarta capa: agregar color",
-    "text": "34.4 Cuarta capa: agregar color\nPodemos incorporar una variable categórica para distinguir grupos.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point()\n\n\n\n\n\n\n\n\n\nLos colores permiten identificar las diferentes especies de pingüinos.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Construyendo gráficas capa por capa</span>"
-    ]
+    "text": "34.4 Cuarta capa: agregar color\nPodemos incorporar una variable categórica para distinguir grupos.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point()\n\n\n\n\n\nLos colores permiten identificar las diferentes especies de pingüinos."
   },
   {
     "objectID": "Parte33.html#quinta-capa-modificar-la-apariencia",
     "href": "Parte33.html#quinta-capa-modificar-la-apariencia",
     "title": "34  Construyendo gráficas capa por capa",
     "section": "34.5 Quinta capa: modificar la apariencia",
-    "text": "34.5 Quinta capa: modificar la apariencia\nLas capas también permiten cambiar propiedades visuales.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7)\n\n\n\n\n\n\n\n\n\n\nsize controla el tamaño de los puntos.\nalpha controla la transparencia.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Construyendo gráficas capa por capa</span>"
-    ]
+    "text": "34.5 Quinta capa: modificar la apariencia\nLas capas también permiten cambiar propiedades visuales.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7)\n\n\n\n\n\n\nsize controla el tamaño de los puntos.\nalpha controla la transparencia."
   },
   {
     "objectID": "Parte33.html#sexta-capa-etiquetas",
     "href": "Parte33.html#sexta-capa-etiquetas",
     "title": "34  Construyendo gráficas capa por capa",
     "section": "34.6 Sexta capa: etiquetas",
-    "text": "34.6 Sexta capa: etiquetas\nUna gráfica debe ser fácil de interpretar. Podemos añadir títulos y etiquetas a los ejes.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  )",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Construyendo gráficas capa por capa</span>"
-    ]
+    "text": "34.6 Sexta capa: etiquetas\nUna gráfica debe ser fácil de interpretar. Podemos añadir títulos y etiquetas a los ejes.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  )"
   },
   {
     "objectID": "Parte33.html#séptima-capa-temas",
     "href": "Parte33.html#séptima-capa-temas",
     "title": "34  Construyendo gráficas capa por capa",
     "section": "34.7 Séptima capa: temas",
-    "text": "34.7 Séptima capa: temas\nFinalmente, podemos modificar la apariencia general de la figura.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipLa idea principal\n\n\n\nEn ggplot2, una gráfica se construye sumando capas:\nggplot(datos)} + aes() + geom_() +otras capas\nCada nueva capa añade información o modifica la apariencia de la figura, permitiendo construir visualizaciones complejas de manera gradual.\n\n\n\n\n\n\n\n\nNoteEjercicio\n\n\n\nRealiza un plot para tratar de responder a las siguientes preguntas:\n¿Existe alguna relación entre la longitud del pico y la longitud de la aleta?\n¿La longitud del pico incrementa con la longitud de la aleta?\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Construyendo gráficas capa por capa</span>"
-    ]
+    "text": "34.7 Séptima capa: temas\nFinalmente, podemos modificar la apariencia general de la figura.\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\n\n\nLa idea principal\n\n\n\nEn ggplot2, una gráfica se construye sumando capas:\nggplot(datos)} + aes() + geom_() +otras capas\nCada nueva capa añade información o modifica la apariencia de la figura, permitiendo construir visualizaciones complejas de manera gradual.\n\n\n\n\n\n\n\n\nEjercicio\n\n\n\nRealiza un plot para tratar de responder a las siguientes preguntas:\n¿Existe alguna relación entre la longitud del pico y la longitud de la aleta?\n¿La longitud del pico incrementa con la longitud de la aleta?\n\n\n\n\n\n\nSolución\n\n\n\n\n\n\n\nCode\nggplot(\n  data = penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()"
   },
   {
     "objectID": "Parte34.html",
@@ -1344,88 +1317,196 @@
     "objectID": "Parte34.html#qué-son-las-estéticas",
     "href": "Parte34.html#qué-son-las-estéticas",
     "title": "35  Estéticas y escalas en ggplot2",
-    "section": "",
-    "text": "x y y: posición en los ejes.\ncolor: color de puntos o líneas.\nshape: forma de los puntos.\nsize: tamaño.\nalpha: transparencia.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "section": "35.1 ¿Qué son las estéticas?",
+    "text": "35.1 ¿Qué son las estéticas?\nLas estéticas establecen una correspondencia entre las variables del conjunto de datos y características visuales de la gráfica.\nLas más comunes son:\n\nx y y: posición en los ejes.\ncolor: color de puntos o líneas.\nshape: forma de los puntos.\nsize: tamaño.\nalpha: transparencia.\n\nPor ejemplo:\n\n\nCode\nlibrary(ggplot2)\n\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\nEn este caso, el color está determinado por la variable species."
   },
   {
     "objectID": "Parte34.html#colores",
     "href": "Parte34.html#colores",
     "title": "35  Estéticas y escalas en ggplot2",
     "section": "35.2 Colores",
-    "text": "35.2 Colores\nEl color es una de las estéticas más útiles en una gráfica. Nos permite:\n\ndistinguir grupos;\nrepresentar valores numéricos;\nresaltar patrones;\nmejorar la comunicación visual.\n\nEn ggplot2, el color puede usarse de dos formas principales:\n\nComo una estética mapeada a una variable, dentro de aes().\nComo una propiedad fija, fuera de aes().\n\n\n\nCode\nlibrary(dplyr)\n\n\n\n35.2.1 Color como estética\nCuando colocamos color dentro de aes(), le estamos diciendo a ggplot2 que el color depende de una variable del conjunto de datos.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nEn este caso, cada especie aparece con un color diferente. Esto facilita comparar si las especies se agrupan de manera distinta según la longitud del pico y la longitud de la aleta.\nTambién podemos agregar una tendencia por especie:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nAquí el color no solamente afecta a los puntos, sino también a las líneas de tendencia.\n\n\n35.2.2 Color fijo\nSi queremos que todos los puntos tengan el mismo color, el argumento debe ir fuera de aes().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len\n  )\n) +\n  geom_point(size = 2, alpha = 0.7, color = \"steelblue\") +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nDentro de aes() usamos variables del conjunto de datos.\nFuera de aes() usamos valores fijos.\n\n\n\n\n35.2.3 Guardar una gráfica como objeto\nUna práctica común es guardar una gráfica base y después agregarle nuevas capas.\n\n\nCode\np_penguins &lt;- ggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.8) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  )\n\np_penguins\n\n\n\n\n\n\n\n\n\nAhora podemos reutilizar p_penguins y modificar únicamente la escala de color.\n\n\n35.2.4 Cambiar colores manualmente\nPor defecto, ggplot2 asigna colores automáticamente. Sin embargo, podemos elegir colores específicos con scale_color_manual().\n\n\nCode\np_penguins +\n  scale_color_manual(\n    values = c(\n      \"Adelie\" = \"grey40\",\n      \"Chinstrap\" = \"orange\",\n      \"Gentoo\" = \"skyblue\"\n    )\n  )\n\n\n\n\n\n\n\n\n\nEsto es útil cuando queremos usar colores más contrastantes o una paleta específica.\n\n\n\n\n\n\nNote\n\n\n\nTambién existe scale_fill_manual(), que se usa cuando la estética es fill, por ejemplo en barras, histogramas, diagramas de caja o violines.\n\n\n\n\n35.2.5 Color para variables numéricas\nEl color no solamente sirve para variables categóricas. También puede representar variables numéricas.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\n\n\n\n\nEn este caso, el color representa una escala continua: pingüinos con menor o mayor masa corporal.\n\n\n35.2.6 Gradientes de color\nPodemos controlar el gradiente usando scale_color_gradient().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient(\n    low = \"lightblue\",\n    high = \"darkblue\"\n  ) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\n\n\n\n\nTambién podemos usar una transformación, por ejemplo log10, si los valores tienen una escala muy desigual.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = log10(body_mass)\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient(\n    low = \"blue\",\n    high = \"red\"\n  ) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"log10(masa corporal)\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n35.2.7 Gradientes con punto medio\nCuando queremos mostrar valores por debajo y por encima de un punto de referencia, podemos usar scale_color_gradient2().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient2(\n    low = \"blue\",\n    mid = \"white\",\n    high = \"red\",\n    midpoint = mean(penguins$body_mass, na.rm = TRUE)\n  ) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\n\n\n\n\nEste tipo de escala es útil cuando hay un valor central importante, por ejemplo cero, un promedio o una referencia biológica.\n\n\n35.2.8 Usar paletas de colores\nEn lugar de elegir colores manualmente, podemos usar paletas ya diseñadas.\nUna opción común es el paquete RColorBrewer.\n\n\nCode\nlibrary(RColorBrewer)\n\ndisplay.brewer.all()\n\n\n\n\n\n\n\n\n\nPara una variable categórica, podemos usar scale_color_brewer().\n\n\nCode\np_penguins +\n  scale_color_brewer(palette = \"Dark2\")\n\n\n\n\n\n\n\n\n\n\n\n35.2.9 Paletas viridis\nLas paletas viridis son muy útiles porque suelen funcionar bien en escala de grises y son más accesibles para personas con distintos tipos de daltonismo.\nPara variables categóricas usamos scale_color_viridis_d().\n\n\nCode\np_penguins +\n  scale_color_viridis_d()\n\n\n\n\n\n\n\n\n\nLa d viene de discrete, porque species es una variable categórica.\nPara variables continuas usamos scale_color_viridis_c().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_viridis_c() +\n  labs(\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\n\n\n\n\nLa c viene de continuous, porque body_mass es una variable numérica.\n\n\n\n\n\n\nTip\n\n\n\nComo regla práctica:\n\nusa scale_color_viridis_d() para grupos o categorías;\nusa scale_color_viridis_c() para variables numéricas continuas.\n\n\n\n\n\n35.2.10 Escala de grises\nA veces necesitamos figuras que funcionen bien impresas en blanco y negro.\nPara variables categóricas:\n\n\nCode\np_penguins +\n  scale_color_grey()\n\n\n\n\n\n\n\n\n\nPara variables continuas:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient(\n    low = \"grey85\",\n    high = \"black\"\n  ) +\n  labs(\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n35.2.11 Una nota sobre accesibilidad\nNo todas las combinaciones de colores son igualmente fáciles de interpretar. Algunas paletas pueden ser confusas para personas con daltonismo o pueden perder información al imprimirse en escala de grises.\nPor eso, cuando la gráfica sea para comunicación pública, artículos o presentaciones, conviene usar paletas accesibles como viridis.\n\n\nCode\np_penguins +\n  scale_color_viridis_d() +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    subtitle = \"Colores por especie usando una paleta accesible\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nEl color puede usarse para comunicar distintos tipos de información:\n\n\n\n\n\n\n\nObjetivo\nFunción útil\n\n\n\n\nAsignar color por grupo\naes(color = variable)\n\n\nUsar un color fijo\ngeom_point(color = \"steelblue\")\n\n\nElegir colores manualmente\nscale_color_manual()\n\n\nRepresentar una variable numérica\naes(color = variable_numerica)\n\n\nCrear un gradiente\nscale_color_gradient()\n\n\nUsar un gradiente con punto medio\nscale_color_gradient2()\n\n\nUsar paletas predefinidas\nscale_color_brewer()\n\n\nUsar paletas accesibles\nscale_color_viridis_d() / scale_color_viridis_c()\n\n\nUsar escala de grises\nscale_color_grey()\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nUna página que contiene muchas paletas de colores y varias paletas accesibles es la siguietne:\nhttps://r-charts.com/color-palettes/",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "text": "35.2 Colores\nEl color es una de las estéticas más útiles en una gráfica. Nos permite:\n\ndistinguir grupos;\nrepresentar valores numéricos;\nresaltar patrones;\nmejorar la comunicación visual.\n\nEn ggplot2, el color puede usarse de dos formas principales:\n\nComo una estética mapeada a una variable, dentro de aes().\nComo una propiedad fija, fuera de aes().\n\n\n\nCode\nlibrary(dplyr)\n\n\n\n35.2.1 Color como estética\nCuando colocamos color dentro de aes(), le estamos diciendo a ggplot2 que el color depende de una variable del conjunto de datos.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\nEn este caso, cada especie aparece con un color diferente. Esto facilita comparar si las especies se agrupan de manera distinta según la longitud del pico y la longitud de la aleta.\nTambién podemos agregar una tendencia por especie:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.7) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\nAquí el color no solamente afecta a los puntos, sino también a las líneas de tendencia.\n\n\n35.2.2 Color fijo\nSi queremos que todos los puntos tengan el mismo color, el argumento debe ir fuera de aes().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = flipper_len\n  )\n) +\n  geom_point(size = 2, alpha = 0.7, color = \"steelblue\") +\n  labs(\n    title = \"Relación entre la longitud del pico y aleta de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Longitud de la aleta (mm)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nDentro de aes() usamos variables del conjunto de datos.\nFuera de aes() usamos valores fijos.\n\n\n\n\n35.2.3 Guardar una gráfica como objeto\nUna práctica común es guardar una gráfica base y después agregarle nuevas capas.\n\n\nCode\np_penguins &lt;- ggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(size = 2, alpha = 0.8) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  )\n\np_penguins\n\n\n\n\n\nAhora podemos reutilizar p_penguins y modificar únicamente la escala de color.\n\n\n35.2.4 Cambiar colores manualmente\nPor defecto, ggplot2 asigna colores automáticamente. Sin embargo, podemos elegir colores específicos con scale_color_manual().\n\n\nCode\np_penguins +\n  scale_color_manual(\n    values = c(\n      \"Adelie\" = \"grey40\",\n      \"Chinstrap\" = \"orange\",\n      \"Gentoo\" = \"skyblue\"\n    )\n  )\n\n\n\n\n\nEsto es útil cuando queremos usar colores más contrastantes o una paleta específica.\n\n\n\n\n\n\nNote\n\n\n\nTambién existe scale_fill_manual(), que se usa cuando la estética es fill, por ejemplo en barras, histogramas, diagramas de caja o violines.\n\n\n\n\n35.2.5 Color para variables numéricas\nEl color no solamente sirve para variables categóricas. También puede representar variables numéricas.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\nEn este caso, el color representa una escala continua: pingüinos con menor o mayor masa corporal.\n\n\n35.2.6 Gradientes de color\nPodemos controlar el gradiente usando scale_color_gradient().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient(\n    low = \"lightblue\",\n    high = \"darkblue\"\n  ) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\nTambién podemos usar una transformación, por ejemplo log10, si los valores tienen una escala muy desigual.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = log10(body_mass)\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient(\n    low = \"blue\",\n    high = \"red\"\n  ) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"log10(masa corporal)\"\n  )\n\n\n\n\n\n\n\n35.2.7 Gradientes con punto medio\nCuando queremos mostrar valores por debajo y por encima de un punto de referencia, podemos usar scale_color_gradient2().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient2(\n    low = \"blue\",\n    mid = \"white\",\n    high = \"red\",\n    midpoint = mean(penguins$body_mass, na.rm = TRUE)\n  ) +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\nEste tipo de escala es útil cuando hay un valor central importante, por ejemplo cero, un promedio o una referencia biológica.\n\n\n35.2.8 Usar paletas de colores\nEn lugar de elegir colores manualmente, podemos usar paletas ya diseñadas.\nUna opción común es el paquete RColorBrewer.\n\n\nCode\nlibrary(RColorBrewer)\n\ndisplay.brewer.all()\n\n\n\n\n\nPara una variable categórica, podemos usar scale_color_brewer().\n\n\nCode\np_penguins +\n  scale_color_brewer(palette = \"Dark2\")\n\n\n\n\n\n\n\n35.2.9 Paletas viridis\nLas paletas viridis son muy útiles porque suelen funcionar bien en escala de grises y son más accesibles para personas con distintos tipos de daltonismo.\nPara variables categóricas usamos scale_color_viridis_d().\n\n\nCode\np_penguins +\n  scale_color_viridis_d()\n\n\n\n\n\nLa d viene de discrete, porque species es una variable categórica.\nPara variables continuas usamos scale_color_viridis_c().\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_viridis_c() +\n  labs(\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\nLa c viene de continuous, porque body_mass es una variable numérica.\n\n\n\n\n\n\nTip\n\n\n\nComo regla práctica:\n\nusa scale_color_viridis_d() para grupos o categorías;\nusa scale_color_viridis_c() para variables numéricas continuas.\n\n\n\n\n\n35.2.10 Escala de grises\nA veces necesitamos figuras que funcionen bien impresas en blanco y negro.\nPara variables categóricas:\n\n\nCode\np_penguins +\n  scale_color_grey()\n\n\n\n\n\nPara variables continuas:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = body_mass\n  )\n) +\n  geom_point(size = 2) +\n  scale_color_gradient(\n    low = \"grey85\",\n    high = \"black\"\n  ) +\n  labs(\n    color = \"Masa corporal (g)\"\n  )\n\n\n\n\n\n\n\n35.2.11 Una nota sobre accesibilidad\nNo todas las combinaciones de colores son igualmente fáciles de interpretar. Algunas paletas pueden ser confusas para personas con daltonismo o pueden perder información al imprimirse en escala de grises.\nPor eso, cuando la gráfica sea para comunicación pública, artículos o presentaciones, conviene usar paletas accesibles como viridis.\n\n\nCode\np_penguins +\n  scale_color_viridis_d() +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    subtitle = \"Colores por especie usando una paleta accesible\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  ) +\n  theme_minimal()\n\n\n\n\n\nEl color puede usarse para comunicar distintos tipos de información:\n\n\n\n\n\n\n\nObjetivo\nFunción útil\n\n\n\n\nAsignar color por grupo\naes(color = variable)\n\n\nUsar un color fijo\ngeom_point(color = \"steelblue\")\n\n\nElegir colores manualmente\nscale_color_manual()\n\n\nRepresentar una variable numérica\naes(color = variable_numerica)\n\n\nCrear un gradiente\nscale_color_gradient()\n\n\nUsar un gradiente con punto medio\nscale_color_gradient2()\n\n\nUsar paletas predefinidas\nscale_color_brewer()\n\n\nUsar paletas accesibles\nscale_color_viridis_d() / scale_color_viridis_c()\n\n\nUsar escala de grises\nscale_color_grey()\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nUna página que contiene muchas paletas de colores y varias paletas accesibles es la siguietne:\nhttps://r-charts.com/color-palettes/\n\n\n\n\n35.2.12 Revisar accesibilidad de colores\nComo ya mencionamos, además de elegir una paleta agradable, es importante verificar que los colores sean distinguibles para personas con distintas formas de daltonismo. Una forma sencilla de hacerlo es con la función cvdPlot().\nLa función cvdPlot() permite visualizar cómo se vería una gráfica bajo distintas condiciones de deficiencia en la visión del color.\n\n\nCode\nif (!\"colorBlindness\" %in% installed.packages()) {\n  install.packages(\"colorBlindness\")\n}\n\nlibrary(colorBlindness)\n\n\nWarning: package 'colorBlindness' was built under R version 4.5.3\n\n\nPrimero construimos una gráfica usando una paleta accesible, como viridis.\n\n\nCode\npp2_viridis &lt;- p_penguins +\n  scale_color_viridis_d() +\n  labs(\n    title = \"Medidas del pico de los pingüinos\",\n    subtitle = \"Colores por especie usando una paleta accesible\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\",\n    color = \"Especie\"\n  ) +\n  theme_minimal()\n\npp2_viridis\n\n\n\n\n\nAhora usamos cvdPlot() para simular cómo se vería la misma gráfica para personas con distintos tipos de deficiencia en la visión del color.\n\n\nCode\ncvdPlot(pp2_viridis)\n\n\n\n\n\nLa salida muestra varias versiones de la gráfica. Esto nos ayuda a revisar si los grupos siguen siendo distinguibles aun cuando cambia la percepción del color.\n\n\n\n\n\n\nNota\n\n\n\nLas paletas viridis suelen ser una buena opción porque fueron diseñadas para ser perceptualmente uniformes y más accesibles para personas con daltonismo.\n\n\nVeamos solo un ejemplo de una paleta no accesible.\n\n\nCode\np_penguins\n\n\n\n\n\nUsando cvdPlot vemos que estos plots no son visualemente accesibles.\n\n\nCode\ncvdPlot(p_penguins)"
   },
   {
     "objectID": "Parte34.html#forma-de-los-puntos",
     "href": "Parte34.html#forma-de-los-puntos",
     "title": "35  Estéticas y escalas en ggplot2",
     "section": "35.3 Forma de los puntos",
-    "text": "35.3 Forma de los puntos\nLa estética shape permite distinguir grupos mediante símbolos diferentes.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    shape = species\n  )\n) +\n  geom_point()\n\n\n\n\n\n\n\n\n\nIncluso podemos combinar color y forma:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species,\n    shape = species\n  )\n) +\n  geom_point()",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "text": "35.3 Forma de los puntos\nLa estética shape permite distinguir grupos mediante símbolos diferentes.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    shape = species\n  )\n) +\n  geom_point()\n\n\n\n\n\nIncluso podemos combinar color y forma:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species,\n    shape = species\n  )\n) +\n  geom_point()\n\n\n\n\n\nEs el equivalente al parámetro pch de los gráficos base de R. Para cambiarlo, usamos shape = n, donde n es un número entre 0 y 25. Algunos de los símbolos disponibles se muestran a continuación."
   },
   {
     "objectID": "Parte34.html#tamaño",
     "href": "Parte34.html#tamaño",
     "title": "35  Estéticas y escalas en ggplot2",
     "section": "35.4 Tamaño",
-    "text": "35.4 Tamaño\nLa estética size es especialmente útil para variables numéricas.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    size = body_mass\n  )\n) +\n  geom_point()\n\n\n\n\n\n\n\n\n\nLos pingüinos con mayor masa corporal aparecen representados por puntos más grandes.\nTambién podemos fijar un tamaño constante:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point(size = 3)",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "text": "35.4 Tamaño\nLa estética size es especialmente útil para variables numéricas.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    size = body_mass\n  )\n) +\n  geom_point()\n\n\n\n\n\nLos pingüinos con mayor masa corporal aparecen representados por puntos más grandes.\nTambién podemos fijar un tamaño constante:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point(size = 3)"
   },
   {
     "objectID": "Parte34.html#transparencia",
     "href": "Parte34.html#transparencia",
     "title": "35  Estéticas y escalas en ggplot2",
     "section": "35.5 Transparencia",
-    "text": "35.5 Transparencia\nLa transparencia se controla mediante el parámetro alpha, cuyos valores están entre 0 y 1.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point(alpha = 0.4)\n\n\n\n\n\n\n\n\n\nValores pequeños producen puntos más transparentes.\nLa transparencia es útil cuando existen muchos datos y varios puntos se superponen.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "text": "35.5 Transparencia\nLa transparencia se controla mediante el parámetro alpha, cuyos valores están entre 0 y 1.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point(alpha = 0.4)\n\n\n\n\n\nValores pequeños producen puntos más transparentes.\nLa transparencia es útil cuando existen muchos datos y varios puntos se superponen."
   },
   {
     "objectID": "Parte34.html#combinando-varias-estéticas",
     "href": "Parte34.html#combinando-varias-estéticas",
     "title": "35  Estéticas y escalas en ggplot2",
-    "section": "35.6 Combinando varias estéticas",
-    "text": "35.6 Combinando varias estéticas\nPodemos utilizar varias estéticas simultáneamente.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species,\n    shape = species,\n    size = body_mass\n  )\n) +\n  geom_point(alpha = 0.7)\n\n\n\n\n\n\n\n\n\nCada estética añade una dimensión adicional de información.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "section": "35.7 Combinando varias estéticas",
+    "text": "35.7 Combinando varias estéticas\nPodemos utilizar varias estéticas simultáneamente.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species,\n    shape = species,\n    size = body_mass\n  )\n) +\n  geom_point(alpha = 0.7)\n\n\n\n\n\nCada estética añade una dimensión adicional de información."
   },
   {
     "objectID": "Parte34.html#escalas-de-los-ejes",
     "href": "Parte34.html#escalas-de-los-ejes",
     "title": "35  Estéticas y escalas en ggplot2",
-    "section": "35.7 Escalas de los ejes",
-    "text": "35.7 Escalas de los ejes\nEn ocasiones es necesario modificar los límites o las marcas de los ejes.\n\n35.7.1 Cambiar los límites\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point() +\n  xlim(30, 60) +\n  ylim(12, 22)\n\n\n\n\n\n\n\n\n\n\n\n35.7.2 Utilizando scale_x_continuous()\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point() +\n  scale_x_continuous(\n    limits = c(30, 60),\n    breaks = seq(30,60,5)\n  )\n\n\n\n\n\n\n\n\n\nAquí:\n\nlimits controla el intervalo mostrado.\nbreaks determina las marcas del eje.\n\n\n\n35.7.3 Modificando ambos ejes\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point() +\n  scale_x_continuous(\n    breaks = seq(30,60,5)\n  ) +\n  scale_y_continuous(\n    breaks = seq(12,22,2)\n  )",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "section": "35.8 Escalas de los ejes",
+    "text": "35.8 Escalas de los ejes\nEn ocasiones es necesario modificar los límites o las marcas de los ejes.\n\n35.8.1 Cambiar los límites\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point() +\n  xlim(30, 60) +\n  ylim(12, 22)\n\n\n\n\n\n\n\n35.8.2 Utilizando scale_x_continuous()\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point() +\n  scale_x_continuous(\n    limits = c(30, 60),\n    breaks = seq(30,60,5)\n  )\n\n\n\n\n\nAquí:\n\nlimits controla el intervalo mostrado.\nbreaks determina las marcas del eje.\n\n\n\n35.8.3 Modificando ambos ejes\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep\n  )\n) +\n  geom_point() +\n  scale_x_continuous(\n    breaks = seq(30,60,5)\n  ) +\n  scale_y_continuous(\n    breaks = seq(12,22,2)\n  )"
   },
   {
     "objectID": "Parte34.html#resumen",
     "href": "Parte34.html#resumen",
     "title": "35  Estéticas y escalas en ggplot2",
-    "section": "35.8 Resumen",
-    "text": "35.8 Resumen\nLas estéticas permiten representar información mediante propiedades visuales:\n\n\n\nEstética\nRepresenta\n\n\n\n\nx, y\nPosición\n\n\ncolor\nColor\n\n\nshape\nForma\n\n\nsize\nTamaño\n\n\nalpha\nTransparencia\n\n\n\nLas escalas permiten controlar cómo se muestran los valores sobre los ejes y cómo se traducen las variables a elementos visuales.\nEn conjunto, las estéticas y las escalas hacen posible construir gráficas más informativas y fáciles de interpretar.",
-    "crumbs": [
-      "**Sección 6** - Gráficos con ggplot2 ",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Estéticas y escalas en ggplot2</span>"
-    ]
+    "section": "35.9 Resumen",
+    "text": "35.9 Resumen\nLas estéticas permiten representar información mediante propiedades visuales:\n\n\n\nEstética\nRepresenta\n\n\n\n\nx, y\nPosición\n\n\ncolor\nColor\n\n\nshape\nForma\n\n\nsize\nTamaño\n\n\nalpha\nTransparencia\n\n\n\nLas escalas permiten controlar cómo se muestran los valores sobre los ejes y cómo se traducen las variables a elementos visuales.\nEn conjunto, las estéticas y las escalas hacen posible construir gráficas más informativas y fáciles de interpretar."
+  },
+  {
+    "objectID": "Parte34.html#tipo-de-línea",
+    "href": "Parte34.html#tipo-de-línea",
+    "title": "35  Estéticas y escalas en ggplot2",
+    "section": "35.6 Tipo de línea",
+    "text": "35.6 Tipo de línea\nlinetype: cambia el tipo de línea, por ejemplo, de sólida a punteada. Es el equivalente al parámetro lty de los gráficos base. Podemos especificar el tipo de línea mediante nombres (“solid”, “dashed”, “dotted”, “dotdash”, “longdash”, “twodash”) o mediante números del 0 al 6."
+  },
+  {
+    "objectID": "Parte37.html#facet_wrap",
+    "href": "Parte37.html#facet_wrap",
+    "title": "38  Facetas",
+    "section": "38.1 facet_wrap()",
+    "text": "38.1 facet_wrap()\nLa función facet_wrap() divide la gráfica según una sola variable categórica y organiza automáticamente los paneles en filas y columnas.\nPor ejemplo, podemos crear una gráfica para cada isla:\n\n\nCode\np +\n  facet_wrap(~ island)\n\n\n\n\n\nCada panel contiene únicamente los pingüinos correspondientes a una isla.\nTambién podemos controlar el número de columnas:\n\n\nCode\np +\n  facet_wrap(~ species, ncol = 1)\n\n\n\n\n\nEn este caso obtenemos una gráfica para cada especie, acomodadas en una sola columna.\n\n\n\n\n\n\nNota\n\n\n\nfacet_wrap() es útil cuando queremos dividir los datos según una sola variable."
+  },
+  {
+    "objectID": "Parte37.html#facet_grid",
+    "href": "Parte37.html#facet_grid",
+    "title": "38  Facetas",
+    "section": "38.2 facet_grid()",
+    "text": "38.2 facet_grid()\nLa función facet_grid() permite organizar los paneles en una cuadrícula determinada por dos variables. Una variable define las filas y la otra las columnas.\nPor ejemplo, podemos separar por sexo y por isla:\n\n\nCode\np +\n  facet_grid(sex ~ island)\n\n\n\n\n\nAquí:\n\nlas filas corresponden al sexo;\nlas columnas corresponden a la isla.\n\nCada panel muestra únicamente las observaciones que pertenecen a esa combinación de categorías.\nTambién es posible utilizar una sola dimensión y dejar que la escala del eje \\(y\\) cambie entre las facetas:\n\n\nCode\np +\n  facet_grid(~ island, scales = \"free\")\n\n\n\n\n\nlo cual produce una fila con una columna por isla.\nO bien,\n\n\nCode\np +\n  facet_grid(species ~ .)\n\n\n\n\n\npara obtener una columna con una fila por especie.\n\n\n\n\n\n\n¿Cuándo usar cada una?\n\n\n\n\nfacet_wrap() se utiliza cuando queremos dividir los datos según una sola variable y dejar que ggplot2 organice automáticamente los paneles.\nfacet_grid() es útil cuando queremos comparar simultáneamente dos variables categóricas, una en las filas y otra en las columnas."
+  },
+  {
+    "objectID": "Parte33.html#primera-capa-los-datos",
+    "href": "Parte33.html#primera-capa-los-datos",
+    "title": "34  Construyendo gráficas capa por capa",
+    "section": "34.1 Primera capa: los datos",
+    "text": "34.1 Primera capa: los datos\nToda gráfica comienza indicando qué conjunto de datos utilizaremos.\n\n\nCode\nggplot(data = penguins)\n\n\n\n\n\nTodavía no aparece ninguna figura, porque aún no hemos especificado qué variables queremos representar."
+  },
+  {
+    "objectID": "Parte36.html#temas-predefinidos",
+    "href": "Parte36.html#temas-predefinidos",
+    "title": "37  Temas en ggplot2",
+    "section": "37.1 Temas predefinidos",
+    "text": "37.1 Temas predefinidos\nggplot2 tiene varios temas predefinidos. Todos contienen la misma información, pero cambia la presentación visual.\n\n\nCode\np + theme_gray()\n\n\n\n\n\nCode\np + theme_light()\n\n\n\n\n\nCode\np + theme_dark()\n\n\n\n\n\nCode\np + theme_minimal()\n\n\n\n\n\nCode\np + theme_void()\n\n\n\n\n\nCode\np + theme_test()\n\n\n\n\n\nPor ejemplo, theme_gray() es el tema por defecto de ggplot2, mientras que theme_minimal() elimina varios elementos visuales para dejar una gráfica más limpia. En cambio, theme_void() elimina casi todos los elementos del fondo, incluyendo ejes y cuadrícula.\n\n\n\n\n\n\nNota\n\n\n\nLos temas no cambian los datos ni la relación entre variables. Sólo modifican la apariencia general de la gráfica."
+  },
+  {
+    "objectID": "Parte36.html#modificar-elementos-del-tema",
+    "href": "Parte36.html#modificar-elementos-del-tema",
+    "title": "37  Temas en ggplot2",
+    "section": "37.2 Modificar elementos del tema",
+    "text": "37.2 Modificar elementos del tema\nTambién podemos modificar elementos específicos con theme(). Por ejemplo, podemos cambiar el estilo del título, los títulos de los ejes y el texto de los ejes.\n\n\nCode\np +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(\n      color = \"red\",\n      size = 12,\n      face = \"bold.italic\"\n    ),\n    axis.title.x = element_text(\n      color = \"blue\",\n      size = 10,\n      face = \"bold\"\n    ),\n    axis.title.y = element_text(\n      color = \"#993333\",\n      size = 10,\n      face = \"italic\"\n    ),\n    axis.text = element_text(\n      color = \"slateblue2\",\n      size = 10\n    )\n  )\n\n\n\n\n\nEn este ejemplo usamos:\n\nplot.title: para modificar el título de la gráfica.\naxis.title.x: para modificar el título del eje x.\naxis.title.y: para modificar el título del eje y.\naxis.text: para modificar los valores que aparecen sobre los ejes.\n\nLa función element_text() permite modificar propiedades del texto, como el color, tamaño y estilo."
+  },
+  {
+    "objectID": "Parte36.html#combinar-temas-predefinidos-con-modificaciones-propias",
+    "href": "Parte36.html#combinar-temas-predefinidos-con-modificaciones-propias",
+    "title": "37  Temas en ggplot2",
+    "section": "37.3 Combinar temas predefinidos con modificaciones propias",
+    "text": "37.3 Combinar temas predefinidos con modificaciones propias\nTambién podemos partir de un tema predefinido y después modificar algunos elementos particulares.\n\n\nCode\np +\n  theme_dark() +\n  theme(\n    plot.title = element_text(\n      color = \"red\",\n      size = 12,\n      face = \"bold.italic\"\n    ),\n    axis.title.x = element_text(\n      color = \"blue\",\n      size = 10,\n      face = \"bold\"\n    ),\n    axis.title.y = element_text(\n      color = \"#993333\",\n      size = 10,\n      face = \"italic\"\n    ),\n    axis.text = element_text(\n      color = \"slateblue2\",\n      size = 10\n    )\n  )\n\n\n\n\n\nAquí primero aplicamos theme_dark() y después cambiamos algunos elementos del texto. Esto muestra que los temas se pueden usar como punto de partida y luego ajustar según nuestras necesidades."
+  },
+  {
+    "objectID": "Parte36.html#elementos-de-un-tema",
+    "href": "Parte36.html#elementos-de-un-tema",
+    "title": "37  Temas en ggplot2",
+    "section": "37.4 Elementos de un tema",
+    "text": "37.4 Elementos de un tema\nUna infografía que les puede ayudar a personalizar sus plots.\n\n\n\nggplot2 Theme Elements Reference Sheet"
+  },
+  {
+    "objectID": "Parte36.html#temas-propios",
+    "href": "Parte36.html#temas-propios",
+    "title": "37  Temas en ggplot2",
+    "section": "37.5 Temas propios",
+    "text": "37.5 Temas propios\nHasta ahora hemos utilizado los temas predefinidos de ggplot2, como theme_light() o theme_minimal(). Sin embargo, también podemos construir nuestro propio tema combinando un tema existente con modificaciones realizadas mediante theme().\nPor ejemplo, podemos definir un tema personalizado para todas nuestras gráficas:\n\n\nCode\ntema_pingüinos &lt;- theme_minimal() +\n  theme(\n    plot.title = element_text(face = \"bold\", size = 14),\n    axis.title = element_text(size = 12),\n    legend.position = \"bottom\",\n    panel.grid.minor = element_blank()\n  )\n\n\nAhora podemos reutilizar este tema en cualquier figura:\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_point(alpha = 0.7) +\n  labs(\n    title = \"Relación entre longitud y profundidad del pico\",\n    x = \"Longitud del pico (mm)\",\n    y = \"Profundidad del pico (mm)\"\n  ) +\n  tema_pingüinos\n\n\n\n\n\nDe esta manera, podemos mantener una apariencia consistente en todas nuestras visualizaciones sin tener que repetir las mismas modificaciones en cada gráfico.\n\n\n\n\n\n\nIdea importante\n\n\n\nUn tema personalizado es simplemente un objeto que almacena modificaciones de estilo. Esto es especialmente útil cuando queremos que todas las figuras de un proyecto, artículo o presentación compartan una apariencia uniforme."
+  },
+  {
+    "objectID": "Parte32.html#explorando-la-estructura-de-los-datos",
+    "href": "Parte32.html#explorando-la-estructura-de-los-datos",
+    "title": "33  Básicos de la visualización de datos",
+    "section": "33.1 Explorando la estructura de los datos",
+    "text": "33.1 Explorando la estructura de los datos\nUna forma rápida de tener un vistazo a los datos es usar ggpairs() del paquete GGally.\n\n\nCode\n#install.packages(\"GGally\")\nlibrary(GGally)\nggpairs(penguins, aes(colour = species), progress = FALSE) +\n  theme_bw()"
+  },
+  {
+    "objectID": "Parte39.html",
+    "href": "Parte39.html",
+    "title": "40  Ejercicios finales",
+    "section": "",
+    "text": "Ejercicio 1: ¿Existe dimorfismo sexual en los pingüinos?\n\n\n\nLos machos y las hembras de muchas especies presentan diferencias de tamaño. Usando el conjunto de datos penguins, investiga si el peso corporal de los pingüinos parece diferir entre sexos y especies. Construye una gráfica que cumpla con lo siguiente:\n\nCompara la variable body_mass entre machos y hembras.\nDistingue las especies mediante color.\nElige una geometría apropiada para comparar distribuciones.\nSepara la gráfica por isla usando facetas.\nPersonaliza el título, etiquetas y tema.\nA partir de la gráfica, responde:\n\n\n¿Los machos parecen pesar más que las hembras?\n¿La diferencia es similar en las tres especies?\n\n\n\n\n\n\n\nSolución\n\n\n\n\n\n\n\nCode\nlibrary(ggplot2)\nggplot( penguins, aes( x = sex, y = body_mass, fill = species ) ) + \n  geom_boxplot() + \n  facet_wrap(~ island) + \n  labs( title = \"Peso corporal por sexo y especie\", \n        x = \"Sexo\", \n        y = \"Peso corporal (g)\", \n        fill = \"Especie\" ) + \n  theme_minimal() \n\n\n\n\n\nEn general, los machos presentan un mayor peso corporal que las hembras. Además, existen diferencias entre especies y entre islas.\n\n\n\n\n\n\n\n\n\n\n\nEjercicio 2:¿Los diamantes de mejor calidad son más caros?\n\n\n\nEl conjunto de datos diamonds, incluido en ggplot2, contiene información sobre más de 50,000 diamantes.\nConstruye una gráfica que permita explorar la relación entre la calidad del corte (cut) y el precio (price).\nLa gráfica debe:\n\nComparar la distribución de precios entre las categorías de cut.\nUtilizar una geometría adecuada para comparar distribuciones.\nMostrar también las observaciones individuales.\nPersonalizar el título y las etiquetas de los ejes.\nElegir un tema diferente al predeterminado.\nResponder:\n\n¿Los diamantes con mejor corte son necesariamente más caros?\n¿Existe mucha variabilidad dentro de cada categoría?\n\n\n\n\n\n\n\n\nSolución\n\n\n\n\n\n\n\nCode\nggplot(\n  diamonds,\n  aes(\n    x = cut,\n    y = price,\n    fill = cut\n  )\n) +\n  geom_boxplot(alpha = 0.7) +\n  geom_jitter(\n    alpha = 0.1,\n    width = 0.2\n  ) +\n  labs(\n    title = \"Precio de los diamantes según la calidad del corte\",\n    x = \"Calidad del corte\",\n    y = \"Precio (USD)\"\n  ) +\n  theme_light() +\n  theme(\n    legend.position = \"none\"\n  )\n\n\n\n\n\nLa gráfica muestra una gran variabilidad en los precios. Aunque las categorías de mejor calidad tienden a tener precios altos, existe un traslape considerable entre las distribuciones."
+  },
+  {
+    "objectID": "Parte38.html#gráfica-de-dispersión",
+    "href": "Parte38.html#gráfica-de-dispersión",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.1 Gráfica de dispersión",
+    "text": "39.1 Gráfica de dispersión\nLa geometría más común para estudiar la relación entre dos variables numéricas es geom_point().\n\n\nCode\np +\n  geom_point(alpha = 0.7) +\n  ggtitle(\"geom_point()\")"
+  },
+  {
+    "objectID": "Parte38.html#etiquetas-de-texto",
+    "href": "Parte38.html#etiquetas-de-texto",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.2 Etiquetas de texto",
+    "text": "39.2 Etiquetas de texto\nPodemos sustituir los puntos por texto utilizando geom_text(). Aquí usamos la especie como etiqueta.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    label = species,\n    color = species\n  )\n) +\n  geom_text() +\n  theme_minimal() +\n  ggtitle(\"geom_text()\")"
+  },
+  {
+    "objectID": "Parte38.html#líneas",
+    "href": "Parte38.html#líneas",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.3 Líneas",
+    "text": "39.3 Líneas\nSi ordenamos las observaciones por longitud del pico, podemos unirlas mediante líneas.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    y = bill_dep,\n    color = species\n  )\n) +\n  geom_line() +\n  theme_minimal() +\n  ggtitle(\"geom_line()\")\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nLas líneas suelen utilizarse para series de tiempo o datos con un orden natural. En este ejemplo se muestran únicamente para ilustrar la geometría."
+  },
+  {
+    "objectID": "Parte38.html#curvas-suavizadas",
+    "href": "Parte38.html#curvas-suavizadas",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.4 Curvas suavizadas",
+    "text": "39.4 Curvas suavizadas\nUna forma común de visualizar tendencias es mediante geom_smooth().\n\n\nCode\np +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  ggtitle(\"geom_smooth()\")"
+  },
+  {
+    "objectID": "Parte38.html#histogramas",
+    "href": "Parte38.html#histogramas",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.5 Histogramas",
+    "text": "39.5 Histogramas\nPara estudiar la distribución de una variable podemos utilizar histogramas.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    fill = species\n  )\n) +\n  geom_histogram(\n    bins = 30,\n    alpha = 0.7\n  ) +\n  theme_minimal() +\n  ggtitle(\"geom_histogram()\")"
+  },
+  {
+    "objectID": "Parte38.html#diagramas-de-caja",
+    "href": "Parte38.html#diagramas-de-caja",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.6 Diagramas de caja",
+    "text": "39.6 Diagramas de caja\nLos diagramas de caja resumen la distribución de una variable y facilitan la comparación entre grupos.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = bill_len,\n    fill = species\n  )\n) +\n  geom_boxplot() +\n  theme_minimal() +\n  ggtitle(\"geom_boxplot()\")"
+  },
+  {
+    "objectID": "Parte38.html#diagramas-de-violín",
+    "href": "Parte38.html#diagramas-de-violín",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.7 Diagramas de violín",
+    "text": "39.7 Diagramas de violín\nUna alternativa al diagrama de caja es el diagrama de violín, que muestra la forma de la distribución.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = bill_len,\n    fill = species\n  )\n) +\n  geom_violin() +\n  theme_minimal() +\n  ggtitle(\"geom_violin()\")"
+  },
+  {
+    "objectID": "Parte38.html#barras",
+    "href": "Parte38.html#barras",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.8 Barras",
+    "text": "39.8 Barras\nTambién podemos representar el número de observaciones de cada especie.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = species,\n    fill = species\n  )\n) +\n  geom_bar() +\n  theme_minimal() +\n  ggtitle(\"geom_bar()\")"
+  },
+  {
+    "objectID": "Parte38.html#densidades",
+    "href": "Parte38.html#densidades",
+    "title": "39  Algunas geometrías básicas",
+    "section": "39.9 Densidades",
+    "text": "39.9 Densidades\nLas curvas de densidad permiten comparar distribuciones de forma suave.\n\n\nCode\nggplot(\n  penguins,\n  aes(\n    x = bill_len,\n    fill = species\n  )\n) +\n  geom_density(alpha = 0.4) +\n  theme_minimal() +\n  ggtitle(\"geom_density()\")\n\n\n\n\n\n\n\n\n\n\n\nIdea importante\n\n\n\nLa estructura básica del gráfico permanece igual; únicamente cambia la geometría. Esta filosofía de capas es una de las características fundamentales de ggplot2."
   }
 ]
